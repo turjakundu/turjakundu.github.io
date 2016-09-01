@@ -19,9 +19,23 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 ### Recent Projects
 <table class="wide">
 
+<tr>
+<td class="left">
+<b>Retailer Switch and Billing Solution</b>
+</td>
+<td class="right">
+<b> CMS Portal for Dialer Solutions</b>
+</td>
+</tr>
 
-
-
+<tr>
+<td class="left">
+<b>Retailer Switch and Billing Solution</b>
+</td>
+<td class="right">
+<b> CMS Portal for Dialer Solutions</b>
+</td>
+</tr>
 <tr>
   <td class="left">
     <a href="http://92.222.66.78:8081/dashboard/">
