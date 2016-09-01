@@ -37,7 +37,7 @@ I am a young, energetic professional having positive attitude and always keen to
             <div id="hide_email">
             Email: <code>turja</code><b></b><code>16</code><b>don't</b><code>@</code><b>want</b><code>g</code><b>spam!
             </b><code>ma</code><b>So</b><code>.</code><b>please</b><code>i</code><b>leave
-            </b><code>l</code><b>me</b><code>.</code><b>alone</b><code>o</code><b>!</b><code>m</code><br/>
+            </b><code>l</code><b>me</b><code>.c</code><b>alone</b><code>o</code><b>!</b><code>m</code><br/>
             Phone: 8801717210862
             </div>
         </div>
@@ -45,7 +45,7 @@ I am a young, energetic professional having positive attitude and always keen to
         <div class="span2">
         <a href="../assets/pics/turja_2014-03-30_small.jpg">
             <img src="../assets/pics/turja_2014-03-30_small.jpg"
-                  title=“Tarja Kundu” alt=“Tarja kundu”/></a>
+                  title="Tarja Kundu" alt="Tarja kundu"/></a>
         </div>
     </div>
 </div>
