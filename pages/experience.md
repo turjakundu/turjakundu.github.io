@@ -26,7 +26,7 @@ description: Turja kundu's Experience
 <b>Language/Framework:</b>   PHP  CodeIgnitor, Bootstrap, Java Script, Ajax,Mysql. <br/>
 <b>Platform:</b> Linux. <br/>
 <b>Role:</b> Development <br/>
-<b>Access link :</b>   http://158.69.204.245:8081/  <br/>
+<b>Access link :</b>   (http://158.69.204.245:8081/)  <br/>
 <b>User name :</b> admin ; Pass : admin <br/>
 
 
