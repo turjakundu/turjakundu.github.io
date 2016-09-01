@@ -19,23 +19,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 ### Recent Projects
 <table class="wide">
 
-<tr>
-<td class="left">
-<b>Retailer Switch and Billing Solution</b>
-</td>
-<td class="right">
-<b> CMS Portal for Dialer Solutions</b>
-</td>
-</tr>
 
-<tr>
-<td class="left">
-<b>Retailer Switch and Billing Solution</b>
-</td>
-<td class="right">
-<b> CMS Portal for Dialer Solutions</b>
-</td>
-</tr>
 <tr>
   <td class="left">
     <a href="http://92.222.66.78:8081/dashboard/">
@@ -49,6 +33,16 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </td>
 </tr>
 <tr>
+<td class="left">
+<b>Retailer Switch and Billing Solution</b>
+</td>
+<td class="right">
+<b> CMS Portal for Dialer Solutions</b>
+</td>
+</tr>
+
+
+<tr>
   <td class="left">
     <a href="https://play.google.com/store/apps/details?id=com.blackDialer">
         <img src="assets/publpics/iplotCorr.png" alt="Android black Dialer" title="Android black Dialer"/>
@@ -59,6 +53,14 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
         <img src="assets/publpics/iphone.jpg" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
     </a>
   </td>
+</tr>
+<tr>
+<td class="left">
+<b>Android Dialer Project</b>
+</td>
+<td class="right">
+<b> iPhone Dialer project</b>
+</td>
 </tr>
 </table>
 
