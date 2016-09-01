@@ -33,10 +33,10 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </td>
 </tr>
 <tr>
-<td class="left">
+<td class="center">
 <b>Retailer Switch and Billing Solution</b>
 </td>
-<td class="right">
+<td class="center">
 <b> CMS Portal for Dialer Solutions</b>
 </td>
 </tr>
@@ -55,10 +55,10 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </td>
 </tr>
 <tr>
-<td class="left">
+<td class="center">
 <b>Android Dialer Project</b>
 </td>
-<td class="right">
+<td class="center">
 <b> iPhone Dialer project</b>
 </td>
 </tr>
