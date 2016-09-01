@@ -16,7 +16,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </div>
 </div>
 
-## Recent Projects
+### Recent Projects
 <table class="wide">
 
 
