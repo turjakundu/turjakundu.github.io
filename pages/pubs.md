@@ -1,19 +1,19 @@
 ---
 layout: page
-title: publications
-description: Karl Broman's publications
+title: Academic BackGround
+description: Turja Kundu's Academic BackGround
 ---
 
 <div class="navbar">
     <div class="navbar-inner">
         <ul class="nav">
             <li><a href="#Result">Results</a></li>
-            <li><a href="#Projects">articles</a></li>
+            <li><a href="#Projects">Projects</a></li>
             <li><a href="#editorials">editorials</a></li>
             <li><a href="#letters">letters</a></li>
             <li><a href="#chapters">chapters</a></li>
             <li><a href="#techreports">tech reports</a></li>
-            <li><a href="#thesis">dissertation</a></li>
+            <li><a href="#thesis">Thesis</a></li>
         </ul>
     </div>
 </div>
@@ -43,18 +43,430 @@ GPA: 5.00 (Out of 5.00)<br/>
 
 #### 2016
 
-Zigler JS Jr, Hodgkinson CA, Wright M, Klise A, Sundin O, **Broman KW**,
-Hejtmancik F, Huang H, Patek B, Sergeev Y, Hose S, Brayton C,
-Xaiodong J, Vasquez D, Maragakis N, Mori S, Goldman D, Hoke A,
-Sinha D (2016) A spontaneous missense mutation in branched chain keto
-acid dehydrogenase kinase in the rat affects both the central and
-peripheral nervous systems. [PLOS ONE](http://www.plosone.org) 11:e0160447
-[![PubMed](icons16/pubmed-icon.png)](http://www.ncbi.nlm.nih.gov/pubmed/27472223)
-[![pdf](icons16/pdf-icon.png)](http://www.biostat.wisc.edu/~kbroman/publications/zigler2016.pdf)
-[![supporting info](icons16/supp-icon.png)](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160447#sec020)
-<!-- * 143 * -->
-<!-- http://doi.org/10.1371/journal.pone.0160447 -->
-
+<br></div><u><b><font face="georgia, serif" size="5"><i>List of Projects:</i></font></b></u><br><br><table style="text-align:center;margin-left:0pt;border-collapse:collapse;border:none" border="1" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="border:1pt solid windowtext;padding:0in 5.4pt;width:100.625px;height:50px" valign="top">
+<p><b><span lang="EN-GB"><font face="times new roman, serif" size="3">Project
+title</font></span></b></p>
+</td>
+<td style="border-style:solid solid solid none;border-top-color:windowtext;border-right-color:windowtext;border-bottom-color:windowtext;border-top-width:1pt;border-right-width:1pt;border-bottom-width:1pt;padding:0in 5.4pt;width:107.625px;height:50px" valign="top">
+<p style="text-align:center"><b><span lang="EN-GB"><font face="times new roman, serif" size="3">Genre</font></span></b></p>
+</td>
+<td style="border-style:solid solid solid none;border-top-color:windowtext;border-right-color:windowtext;border-bottom-color:windowtext;border-top-width:1pt;border-right-width:1pt;border-bottom-width:1pt;padding:0in 5.4pt;width:83.625px;height:50px" valign="top">
+<p><b><span lang="EN-GB"><font face="times new roman, serif" size="3">Language</font></span></b></p>
+</td>
+<td style="border-style:solid solid solid none;border-top-color:windowtext;border-right-color:windowtext;border-bottom-color:windowtext;border-top-width:1pt;border-right-width:1pt;border-bottom-width:1pt;padding:0in 5.4pt;width:120.625px;height:50px" valign="top">
+<p><b><span lang="EN-GB"><font face="times new roman, serif" size="3">Platform</font></span></b></p>
+</td>
+<td style="border-style:solid solid solid none;border-top-color:windowtext;border-right-color:windowtext;border-bottom-color:windowtext;border-top-width:1pt;border-right-width:1pt;border-bottom-width:1pt;padding:0in 5.4pt;width:188.625px;height:50px" valign="top">
+<p><b><span lang="EN-GB"><font face="times new roman, serif" size="3">Description</font></span></b></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Library management system</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">C </font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft Visual studio 6.0
+(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Library management software
+with maintenance support for both books and library staffs.</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3"><b><font color="#0000ff">International bridge LAN
+card game</font></b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Java </font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Netbeans (Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">International bridge card
+game that can be played on LAN </font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>LAN audio video conferencing</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:171px" valign="top">
+<p><font face="times new roman, serif" size="3"><span lang="EN-GB">Java (Java network
+programming, </span><em><span style="font-style:normal">Java Media Framework</span></em><span> API)</span></font></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Netbeans (Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">LAN audio video conferencing
+software with chatting facility implemented by java socket programming.</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Artificial DOS</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Systems</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Assembly </font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Emu8086 (Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">An artificial DOS
+implemented through 8086 Assembly language</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Hotel management system</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software /&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Database/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Web
+solutions</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">ASP.net, C#</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Visual studio&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">2008&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A web based hotel management
+system with maintenance facility of the remote branches.</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:221px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Inventory management system</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:221px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software /&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Database/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Information
+systems/ System design &amp;&nbsp;
+Documentation</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:221px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">UML, C#, Oracle&nbsp; 11g</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:221px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Visual studio&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">2008&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:221px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Inventory management
+solution for a corporate with a reference to TIENS, Bangladesh. A management
+system with admin, sales, store and accounts subsystems.</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Pascal compiler</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Compilers</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">LEX+ </font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">YACC+ </font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">C++</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Visual studio&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">6.0&nbsp;</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;(Windows)</span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:171px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A pascal compiler with error
+identification systems implemented by Context free grammar to convert a
+pascal program to machine dependent assembly language.</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:147px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Virtual network layer
+simulation</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:147px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Networking/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:147px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">java</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:147px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Windows</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:147px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A virtual network layer
+implemented by java multithreaded programming with ‘ping’ and ‘tracert’
+facilities</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Index server</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Networking/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Java (socket programming)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Windows</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">An index server with the
+facility to upload, share, search and delete files in a network.&nbsp;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Online hotel reservation</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Web
+solutions/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Database</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">JSP, java Spring framework,
+mySQL</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Windows</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A third party web based
+hotel reservation system that facilitates the searching and reservation of
+hotels</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr style="height:51.25pt">
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:75px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Traffic signal control
+system</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:75px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Hardware/ microprocessor</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:75px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Assembly</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:75px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Windows</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:75px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A microprocessor based
+traffic control system.</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:219px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>An artificial operating
+system</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:219px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Operating&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Systems</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:219px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">C++</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:219px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Linux</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:219px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">An artificial operating
+system implemented with NACHOS environment. The system supports
+multithreading, multiprogramming,&nbsp;
+resource management, file systems ,process management and inter
+process communication</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>6-bit signed binary
+multiplier</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Hardware</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">N/A</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">N/A</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:99px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">a binary multiplier that
+multiplies 2 six bit binary numbers</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>4-bit microprocessor</b></font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3">&nbsp;</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Hardware/</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">VLSI</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Verilog</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">QUARTUS (Windows),&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">FPGA
+board</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:112px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A 4-bit microprocessor with
+28 instructions</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Mega structure Modeling of
+Burj-Al-Arab</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Computer&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Graphics</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Opengl, C++</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Visual studio&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">2008&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:163px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A 3D modelling of
+Burj-Al-Arab (A hotel of Dubai)</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Automatic Document
+clustering</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">pattern&nbsp;</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">recognition</span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Java</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Netbeans</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A solution to automatic
+document clustering through pattern recognition techniques</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Optical character
+recognition</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">machine&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">learning</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Matlab</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Matlab&nbsp;</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">2010&nbsp;</span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:125px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">A neural network based
+optical character recognition system</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:none solid solid;border-right-color:windowtext;border-bottom-color:windowtext;border-left-color:windowtext;border-right-width:1pt;border-bottom-width:1pt;border-left-width:1pt;padding:0in 5.4pt;width:100.625px;height:136px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" color="#0000ff" size="3"><b>Churn prediction</b></font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:107.625px;height:136px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Software/&nbsp;</font></span></p><p><span lang="EN-GB"><font face="times new roman, serif" size="3">Data mining</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:83.625px;height:136px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">C++</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:120.625px;height:136px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Microsoft&nbsp;</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">Visual&nbsp;</font></span><span style="font-family:times new roman,serif;font-size:medium;line-height:1.5">studio&nbsp;</span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">2008
+(Windows)</font></span></p>
+</td>
+<td style="border-style:none solid solid none;border-bottom-color:windowtext;border-bottom-width:1pt;border-right-color:windowtext;border-right-width:1pt;padding:0in 5.4pt;width:188.625px;height:136px" valign="top">
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">An automatic customer churn
+prediction system based on evolutionary computation</font></span></p>
+<p><span lang="EN-GB"><font face="times new roman, serif" size="3">&nbsp;</font></span></p>
+</td>
+</tr>
+</tbody>
+</table></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages" class="sites-canvas-bottom-panel-wrapper" style="">
+<div class="sites-subpages">
+Subpages <span id="subpages-total-number">(6):</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/automated-document-clustering" dir="ltr">Automated Document Clustering</a>
+</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/b-sc-thesis" dir="ltr">B.Sc. Thesis</a>
+</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/hotel-management-system" dir="ltr">Hotel Management System</a>
+</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/ida-star-shortest-path" dir="ltr">IDA-STAR Shortest Path</a>
+</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/inventory-management-system" dir="ltr">Inventory Management System</a>
+</span>
+<span>
+<a href="/site/kantishubhra006/research/undergradproject/virtual-network-layer-simlation" dir="ltr">Virtual Network Layer Simulation</a>
+</span>
+</div>
+</div>
+<div id="sites-attachments-container">
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background">
 De Simone M, Spagnuolo L, Lor&egrave; NI, Cigana C, De Fino I, **Broman KW**,
 Iraqi FA, Bragonzi A (2016) Mapping genetic determinants of host
 susceptibility to _Pseudomonas aeruginosa_ lung infection in
