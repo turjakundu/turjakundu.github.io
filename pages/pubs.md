@@ -31,6 +31,7 @@ CGPA: 3.40 (Out of 4.00)<br/>
 <b>H.S.C (Science), 2006</b><br/>
 NotreDame College, Dhaka, Bangladesh<br/>
 GPA: 5.00 (Out of 5.00)<br/>
+
 ---
 
 <b>S.S.C (Science), 2004</b><br/>
