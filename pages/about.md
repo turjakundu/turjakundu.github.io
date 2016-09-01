@@ -1,10 +1,10 @@
 ---
 layout: page
 title: about
-description: Karl Broman is Professor in Biostatistics and Medical Informatics at University of Wisconsin - Madison; research in statistical genetics
+description: Turja Kundu is Software Engineer currently working as a contract based Developer with Sparkmind Technologies.He received a B.Sc in Computer Science and Engineering in 2012,from BUET.
 ---
 
-This is the personal website of Turja Kundu,I am currently working with Sparkmind Technology and received B.Sc in Computer Science and Engineering in 2012,from BUET.  
+This is the personal website of Turja Kundu,I am currently working with Sparkmind Technology.i have completed B.Sc in Computer Science and Engineering in 2012,from BUET.  
 
 
 I would like to introduce myself as a highly motivated & dedicated professional with 4 years of progressive experience within Software Industry. During the tenure of my career I’ve worked in 
