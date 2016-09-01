@@ -7,8 +7,8 @@ description: Karl Broman's publications
 <div class="navbar">
     <div class="navbar-inner">
         <ul class="nav">
-            <li><a href="#book">book</a></li>
-            <li><a href="#articles">articles</a></li>
+            <li><a href=“#Result”>Results</a></li>
+            <li><a href=“#Projects”>articles</a></li>
             <li><a href="#editorials">editorials</a></li>
             <li><a href="#letters">letters</a></li>
             <li><a href="#chapters">chapters</a></li>
@@ -19,15 +19,28 @@ description: Karl Broman's publications
 </div>
 
 
-### <a name="book"></a>book
+### <a name="book"></a>Academic Results
 
-**Broman KW**, Sen &#346; (2009) A Guide to QTL Mapping with R/qtl.  Springer, New York
-[![Online complements](icons16/html-icon.png)](http://www.rqtl.org/book)
-[![Amazon](icons16/amazon-icon.png)](https://www.amazon.com/gp/product/0387921249?ie=UTF8&tag=7210-20)
-[![Springer](icons16/springer-icon.png)](http://www.springer.com/978-0-387-92124-2)
-[![R/qtl](icons16/R-icon.png)](http://www.rqtl.org)
 
-### <a name="articles"></a>journal articles
+
+B.Sc. Engineering in Computer Science & Engineering, 2012
+Bangladesh University of Engineering and Technology (BUET),
+Dhaka-1000, Bangladesh
+CGPA: 3.40 (Out of 4.00)
+
+
+
+H.S.C (Science), 2006
+NotreDame College, Dhaka, Bangladesh
+GPA: 5.00 (Out of 5.00)
+
+
+
+S.S.C (Science), 2004
+St Josseph’s High School, Natore, Bangladesh
+GPA: 5.00 (Out of 5.00)
+
+### <a name="Projects"></a>Academic Projects
 
 #### 2016
 
@@ -1374,7 +1387,7 @@ ORNL/TM-12167, Oak Ridge National Laboratory
 
 
 
-### <a name="thesis"></a>dissertation
+### <a name="thesis"></a>Thesis
 
 **Broman KW** (1997) Identifying quantitative trait loci in
 experimental crosses.  PhD dissertation, Department of Statistics,
