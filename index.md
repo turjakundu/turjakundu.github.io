@@ -1,8 +1,7 @@
 ---
 layout: frontpage
 title: Turja Kundu
-description: Karl Broman is Professor in Biostatistics and Medical Informatics at University of Wisconsin - Madison; research in statistical genetics
-keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical genetics, recombination  
+description: Turja Kundu is Software Engineer currently working as a contract based Developer with Sparkmind Technologies.He received a B.Sc in Computer Science and Engineering in 2012,from BUET.  
 ---
 
 
@@ -10,7 +9,7 @@ keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical g
   <div class="navbar-inner">
       <ul class="nav">
           <li><a href="{{ BASE_PATH }}/assets/turja_cv.pdf">cv</a></li>
-          <li><a href="https://github.com/turjakundu”>github</a></li>
+          <li><a href="https://github.com/turjakundu">github</a></li>
  
           <li><a href="https://twitter.com/kwbroman">@kwbroman</a></li>
       </ul>
@@ -37,7 +36,7 @@ keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical g
     </a>
   </td>
   <td class="right">
-    <a href="webapp-blackdialer.rhcloud.com">
+    <a href="http://webapp-blackdialer.rhcloud.com">
         <img src="assets/publpics/isletc6_fig4.png" alt="CMS Portal" title="CMS Portal"/>
     </a>
   </td>
