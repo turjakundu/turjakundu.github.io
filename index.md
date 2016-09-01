@@ -10,7 +10,7 @@ description:Turja Kundu is Software Engineer currently working as a contract bas
       <ul class="nav">
           <li><a href="{{ BASE_PATH }}/assets/turja_cv.pdf">cv</a></li>
           <li><a href="https://github.com/turjakundu”>github</a></li>
-          <li><a href="">blog</a></li>
+ 
           <li><a href="https://twitter.com/kwbroman">@kwbroman</a></li>
       </ul>
   </div>
