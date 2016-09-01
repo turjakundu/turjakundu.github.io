@@ -35,17 +35,17 @@ I am a young, energetic professional having positive attitude and always keen to
             Bangladesh<br/><br/>
 
             <div id="hide_email">
-            Email: <code>bro</code><b>I</b><code>man</code><b>don't</b><code>@</code><b>want</b><code>bio</code><b>spam!
-            </b><code>stat</code><b>So</b><code>.</code><b>please</b><code>wi</code><b>leave
-            </b><code>sc</code><b>me</b><code>.</code><b>alone</b><code>e</code><b>!</b><code>du</code><br/>
+            Email: <code>turja</code><b></b><code>16</code><b>don't</b><code>@</code><b>want</b><code>g</code><b>spam!
+            </b><code>ma</code><b>So</b><code>.</code><b>please</b><code>i</code><b>leave
+            </b><code>l</code><b>me</b><code>.</code><b>alone</b><code>o</code><b>!</b><code>m</code><br/>
             Phone: 8801717210862
             </div>
         </div>
 
         <div class="span2">
-        <a href="../assets/pics/turja_2014-03-30.jpg">
+        <a href="../assets/pics/turja_2014-03-30_small.jpg">
             <img src="../assets/pics/turja_2014-03-30_small.jpg"
-                  title=“Tarja Kundu” alt=“Tarja kind”/></a>
+                  title=“Tarja Kundu” alt=“Tarja kundu”/></a>
         </div>
     </div>
 </div>
