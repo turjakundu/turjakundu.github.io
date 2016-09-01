@@ -16,7 +16,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </div>
 </div>
 
-### book
+## Recent Projects
 <table class="wide">
 
 
@@ -42,7 +42,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </td>
   <td class="right">
     <a href="https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8">
-        <img src="assets/publpics/iphone.png" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
+        <img src="assets/publpics/iphone.jpg" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
     </a>
   </td>
 </tr>
