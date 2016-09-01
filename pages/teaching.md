@@ -24,9 +24,9 @@ description: Turja kundu's teaching
 
 ##### Conducted Courses
 
-<b> Database Management Systems </b> <br/>
-<b> Networking & Networking Sessional </b> <br/>
-<b> Structured Programming Language </b> <br/>
+Database Management Systems <br/>
+Networking & Networking Sessional  <br/>
+Structured Programming Language <br/>
 
 
 

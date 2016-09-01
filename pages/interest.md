@@ -18,16 +18,16 @@ description: Karl Broman's software
 
 #### Professional interest
 
-Big Data </br>
-Cloud Computing </br>
-Data Warehouse </br>
+Big Data <br/>
+Cloud Computing <br/>
+Data Warehouse <br/>
 
 
 ---
 
 #### Personal interest
 
-Playing Violine</br>
+Playing Violine <br/>
 
 
 ---
