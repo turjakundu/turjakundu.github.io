@@ -7,8 +7,8 @@ description: Karl Broman's publications
 <div class="navbar">
     <div class="navbar-inner">
         <ul class="nav">
-            <li><a href=“#Result”>Results</a></li>
-            <li><a href=“#Projects”>articles</a></li>
+            <li><a href="#Result">Results</a></li>
+            <li><a href="#Projects">articles</a></li>
             <li><a href="#editorials">editorials</a></li>
             <li><a href="#letters">letters</a></li>
             <li><a href="#chapters">chapters</a></li>
@@ -23,22 +23,21 @@ description: Karl Broman's publications
 
 
 
-B.Sc. Engineering in Computer Science & Engineering, 2012
-Bangladesh University of Engineering and Technology (BUET),
-Dhaka-1000, Bangladesh
-CGPA: 3.40 (Out of 4.00)
+<b>B.Sc. Engineering in Computer Science & Engineering, 2012</b><br/>
+Bangladesh University of Engineering and Technology (BUET),<br/>
+Dhaka-1000, Bangladesh<br/>
+CGPA: 3.40 (Out of 4.00)<br/>
 
 
 
-H.S.C (Science), 2006
-NotreDame College, Dhaka, Bangladesh
-GPA: 5.00 (Out of 5.00)
+<b>H.S.C (Science), 2006</b><br/>
+NotreDame College, Dhaka, Bangladesh<br/>
+GPA: 5.00 (Out of 5.00)<br/>
 
 
-
-S.S.C (Science), 2004
-St Josseph’s High School, Natore, Bangladesh
-GPA: 5.00 (Out of 5.00)
+<b>S.S.C (Science), 2004</b><br/>
+St Josseph’s High School, Natore, Bangladesh<br/>
+GPA: 5.00 (Out of 5.00)<br/>
 
 ### <a name="Projects"></a>Academic Projects
 
