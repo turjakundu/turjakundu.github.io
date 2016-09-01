@@ -26,126 +26,95 @@ description: Turja kundu's Experience
 <b>Language/Framework:</b>   PHP  CodeIgnitor, Bootstrap, Java Script, Ajax,Mysql. <br/>
 <b>Platform:</b> Linux. <br/>
 <b>Role:</b> Development <br/>
-<b>Access link :</b>   (http://158.69.204.245:8081/)  <br/>
+<b>Access link :</b>   http://158.69.204.245:8081/  <br/>
 <b>User name :</b> admin ; Pass : admin <br/>
 
 
 ---
 
 #### Android Application Development
-Overview:  Dialer Application is successfully delivered for Android  .It is now used by around 5k users. The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. 
-Language/Framework: Java .
-Platform: Android.
-Role: Development.
-Play store Link : https://play.google.com/store/apps/details?id=com.blackDialer
+
+<b>Overview:</b>  Dialer Application is successfully delivered for Android  .It is now used by around 5k users. The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. <br/>
+<b>Language/Framework:</b>   Java. <br/>
+<b>Platform:</b> Android. <br/>
+<b>Role:</b> Development <br/>
+<b>Play store Link :</b>   https://play.google.com/store/apps/details?id=com.blackDialer  <br/>
 
 
 ---
 
 #### IPhone Application Development
-Overview: Dialer Application is successfully delivered for IPhone . The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call.
-Language/Framework: Objective -C .
-Platform: IOS.
-Role: Development.
-App store Link :  https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8
 
+<b>Overview:</b>  Dialer Application is successfully delivered for IPhone . The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. <br/>
+<b>Language/Framework:</b>   Objective-C. <br/>
+<b>Platform:</b> IOS. <br/>
+<b>Role:</b> Development <br/>
+<b>App store Link :</b>   https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8  <br/>
 
 ---
 
 #### Content Management system
-Overview: A Web Application is developed by Struts2 Framework with Bootstrapto manage customers for dialer applications. The application is deployed in OpenShift Cloud.
-Language/Framework: Struts2 MVC framework, Bootstrap, JAX-RS API.
-Platform: Linux.
-Role: Development
+<b>Overview:</b> A Web Application is developed by Struts2 Framework with Bootstrapto manage customers for dialer applications. The application is deployed in OpenShift Cloud.<br/>
+<b>Language/Framework:</b> Struts2 MVC framework, Bootstrap, JAX-RS API.<br/>
+<b>Platform:</b> Linux.<br/>
+<b>Role:</b> Development<br/>
 
 
 ---
 
-### <a name="Projects"></a>Academic Projects
+### <a name="reli"></a>Relisource Technology Ltd
 
-#### Projects List
-
----
-
-##### Hotel management system (Database/ Web solutions)
-Languages/Systems : ASP.net C#<br/>
-Work : A web based hotel management system with maintenance facility of the remote branches. <br/>
 
 ---
 
-##### Inventory management system (Information systems/ System design &  Documentation)
-Languages/Systems : UML, C#, Oracle  11g C#<br/>
-Work : Inventory management solution for a corporate with a reference to TIENS, Bangladesh. A management system with admin, sales, store and accounts subsystems.<br/>
+#### Remote Sensing system
+<b>Overview:</b> RSS is a service oriented application to communicate with radio enabled temperature logger devices via RF Gateways. It is used to download temperature data from the temperature logger devices and send to remote platforms. <br/>
+<b>Language/Framework:</b> Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
+<b>Platform:</b> Windows.<br/>
+<b>Role:</b> Development<br/>
 
 ---
 
-##### Pascal compiler (Software/Compilers)
-Languages/Systems : LEX+,YACC+,C++<br/>
-Work : A pascal compiler with error identification systems implemented by Context free grammar to convert a pascal program to machine dependent assembly language.<br/>
 
----	
-
-##### Virtual network layer simulation (Software/Networking)
-Languages/Systems : java <br/>
-Work : A virtual network layer implemented by java multithreaded programming with ‘ping’ and ‘tracert’ facilities .<br/>
-
---- 
-
-##### Index server (Software/Networking)
-Languages/Systems : java <br/>
-Work : An index server with the facility to upload, share, search and delete files in a network.<br/>
-
---- 
-
-##### Online hotel reservation (Software/Web solutions/Database)
-Languages/Systems : JSP, java Spring framework, mySQL <br/>
-Work : A third party web based hotel reservation system that facilitates the searching and reservation of hotels.<br/>
+### <a name="mir"></a> Mir Technology Ltd
 
 ---
 
-##### An artificial operating system (Software/Web solutions/Database)
-Languages/Systems : C,Linux <br/>
-Work : An artificial operating system implemented with NACHOS environment. The system supports multithreading, multiprogramming,  resource management, file systems ,process management and inter process communication.<br/>
+#### Billing and Call Routing
+
+<b>Overview:</b> Billing and Billing Software developed for the telecom operators who need to Interconnect with other incumbent telecom operator. Invoice Generation of Billing for inbound and out bound operators and clearance and Blocking Calls is key feature of it. Call Routing service is used for routing inbound and outbound calls in Soft Switch. <br/>
+<b>Language/Framework:</b> Java, Oracle11gs.<br/>
+<b>Platform:</b> Linux.<br/>
+<b>Role:</b> Development<br/>
 
 ---
 
-##### Mega structure Modeling of Burj-Al-Arab(Computer Graphics)
-Languages/Systems : Opengl, C++ <br/>
-Work : A 3D modelling of Burj-Al-Arab .<br/>	
+#### Proxy Server and Instant Messaging
+
+<b>Overview:</b> Proxy server is used in between dialer apps and Soft switch. Sip and RTP  protocol are handled in Proxy server. Instant messaging is used in Dialer apps .Server side development is done with C++.Client side of  Instant messaging apps is integrated with different mobile platforms. <br/>
+<b>Language/Framework:</b> Java, C,Mysql.<br/>
+<b>Platform:</b> Linux.<br/>
+<b>Role:</b> Development<br/>
 
 ---
 
-##### File compressor (limple ziv) 
-Languages/Systems : C <br/>
-Work : Compresses File <br/>
+#### IVR Services 
+
+<b>Overview:</b> onfiguration and Voice flow development for Interactive voice response Service(Tritio matra ,Radio G) which are successfully launched with Mobile Operators. <br/>
+<b>Language/Framework:</b> Python,Asterisk.<br/>
+<b>Platform:</b> Linux.<br/>
+<b>Role:</b> Development<br/>
 
 ---
 
-##### Simple Web Server
-Languages/Systems : Java <br/>
-Work : Handle normal Get and Post <br/>	
+#### Web Development
 
----
-
-##### Artificial DOS
-Languages/Systems : Assembly,Emu8086<br/>
-Work : An artificial DOS implemented through 8086 Assembly language <br/>
+<b>Overview:</b> oA Web Application developed by python Django  MVC framework.. <br/>
+<b>Language/Framework:</b> Python.<br/>
+<b>Platform:</b> windows.<br/>
+<b>Role:</b> Development<br/>
 
 ---
 
 
 
-
-
-
-### <a name="thesis"></a> Research
-
----
-
-#### NAT Traversal Over VoIP. 
-Supervisor: Dr. Md. Humayun Kabir,<br/>
-Associate Professor, Department of Computer Science and Engineering.	<br/>
-Department of Computer Science and Engineering<br/>
-Bangladesh University of Engineering and Technology<br/>
-
----
