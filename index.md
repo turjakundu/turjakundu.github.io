@@ -47,11 +47,13 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
     <a href="https://play.google.com/store/apps/details?id=com.blackDialer">
         <img src="assets/publpics/iplotCorr.png" alt="Android black Dialer" title="Android black Dialer"/>
     </a>
+<b>Android Dialer Project</b>
   </td>
   <td class="right">
     <a href="https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8">
         <img src="assets/publpics/iphone.jpg" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
     </a>
+<b> iPhone Dialer project</b>
   </td>
 </tr>
 <tr>
@@ -59,7 +61,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 <b>Android Dialer Project</b>
 </td>
 <td class="right">
-<b> iPhone Dialer project</b>
+
 </td>
 </tr>
 </table>
