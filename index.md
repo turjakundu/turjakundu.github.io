@@ -18,17 +18,9 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 
 <table class="wide">
 <tr>
-  <td class="left">
-    <a href="https://play.google.com/store/apps/details?id=com.blackDialer">
-        <img src="assets/publpics/iplotCorr.png" alt="Android black Dialer" title="Android black Dialer"/>
-    </a>
-  </td>
-  <td class="right">
-    <a href="https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8">
-        <img src="assets/publpics/tian2016_fig4.png" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
-    </a>
-  </td>
+### <a name=“Recent Projects”></a>book
 </tr>
+
 <tr>
   <td class="left">
     <a href="http://92.222.66.78:8081/dashboard/">
@@ -38,6 +30,18 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   <td class="right">
     <a href="http://webapp-blackdialer.rhcloud.com">
         <img src="assets/publpics/isletc6_fig4.png" alt="CMS Portal" title="CMS Portal"/>
+    </a>
+  </td>
+</tr>
+<tr>
+  <td class="left">
+    <a href="https://play.google.com/store/apps/details?id=com.blackDialer">
+        <img src="assets/publpics/iplotCorr.png" alt="Android black Dialer" title="Android black Dialer"/>
+    </a>
+  </td>
+  <td class="right">
+    <a href="https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8">
+        <img src="assets/publpics/iphone.png" alt="iPhone Black Dialer" title="iPhone Black Dialer"/>
     </a>
   </td>
 </tr>
