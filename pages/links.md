@@ -1,7 +1,7 @@
 ---
 layout: page
-title: tutorials
-description: Karl Broman's tutorials
+title: Links
+description: Useful Links
 ---
 
 - [initial steps toward reproducible research](http://kbroman.org/steps2rr)
