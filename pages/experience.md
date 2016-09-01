@@ -22,25 +22,42 @@ description: Turja kundu's Experience
 ---
 
 #### Retailer  Billing Solution
-<b>Overview:<b>  VoIP Switch and billing application is currently under beta testing. User interface is done in PHP Codeignitor framework with MySQL Database. 
-<b>Language/Framework:<b>   PHP  CodeIgnitor, Bootstrap, Java Script, Ajax,Mysql.
+<b>Overview:</b>  VoIP Switch and billing application is currently under beta testing. User interface is done in PHP Codeignitor framework with MySQL Database. <br/>
+<b>Language/Framework:</b>   PHP  CodeIgnitor, Bootstrap, Java Script, Ajax,Mysql. <br/>
+<b>Platform:</b> Linux. <br/>
+<b>Role:</b> Development <br/>
+<b>Access link :</b>   http://158.69.204.245:8081/  <br/>
+<b>User name :</b> admin ; Pass : admin <br/>
+
+
+---
+
+#### Android Application Development
+Overview:  Dialer Application is successfully delivered for Android  .It is now used by around 5k users. The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. 
+Language/Framework: Java .
+Platform: Android.
+Role: Development.
+Play store Link : https://play.google.com/store/apps/details?id=com.blackDialer
+
+
+---
+
+#### IPhone Application Development
+Overview: Dialer Application is successfully delivered for IPhone . The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call.
+Language/Framework: Objective -C .
+Platform: IOS.
+Role: Development.
+App store Link :  https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8
+
+
+---
+
+#### Content Management system
+Overview: A Web Application is developed by Struts2 Framework with Bootstrapto manage customers for dialer applications. The application is deployed in OpenShift Cloud.
+Language/Framework: Struts2 MVC framework, Bootstrap, JAX-RS API.
 Platform: Linux.
-<b>Role: Development<b>
-<b>Access link :<b>   http://158.69.204.245:8081/
-<b>User name :<b> admin ; Pass : admin
+Role: Development
 
-
----
-
-<b>H.S.C (Science), 2006</b><br/>
-NotreDame College, Dhaka, Bangladesh<br/>
-GPA: 5.00 (Out of 5.00)<br/>
-
----
-
-<b>S.S.C (Science), 2004</b><br/>
-St Josseph’s High School, Natore, Bangladesh<br/>
-GPA: 5.00 (Out of 5.00)<br/>
 
 ---
 
