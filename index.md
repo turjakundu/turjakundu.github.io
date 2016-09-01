@@ -16,10 +16,11 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   </div>
 </div>
 
+### book
 <table class="wide">
-<tr>
-### <a name=“Recent Projects”></a>book
-</tr>
+
+
+
 
 <tr>
   <td class="left">
