@@ -7,60 +7,40 @@ description: Turja kundu's Experience
 <div class="navbar">
 <div class="navbar-inner">
 <ul class="nav">
-<li><a href="#spark">Sparkmind Tech</a></li>
+<li><a href="#ASAI">ASA International</a></li>
+<li><a href="#spark">Maheen Label tex Ltd</a></li>
 <li><a href="#reli">Relisource Ltd</a></li>
-<li><a href="#mir"> MirTech </a></li>
+<li><a href="#mir"> Mir Technology </a></li>
 </ul>
 </div>
 </div>
 
 ---
 
-### <a name="spark"></a>Sparkmind Technology
+### <a name="ASAI"></a>ASA International, Bangladesh
 
 
----
 
-#### Retailer  Billing Solution
-<b>Overview:</b>  VoIP Switch and billing application is currently under beta testing. User interface is done in PHP Codeignitor framework with MySQL Database. <br/>
-<b>Language/Framework:</b>   PHP  CodeIgnitor, Bootstrap, Java Script, Ajax,Mysql. <br/>
-<b>Platform:</b> Linux. <br/>
-<b>Role:</b> Development <br/>
-<b>Access link :</b>   http://158.69.204.245:8081/  <br/>
-<b>User name :</b> admin ; Pass : admin <br/>
-
+<b>Overview:</b> Converting Business Requirements to Technical Solutions for  Micro Finance Banking system ,Collects requirement 12 Country's local IT team and other stake holder, translating and simplifying requirements ,Overall System analysis ( Financial and Operational part of Software),Define software architecture,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
+<b>Language/Framework:</b> Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
+<b>Platform:</b> Windows.<br/>
+<b>Role:</b> Assistant Director<br/>
 
 ---
 
-#### Android Application Development
-
-<b>Overview:</b>  Dialer Application is successfully delivered for Android  .It is now used by around 5k users. The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. <br/>
-<b>Language/Framework:</b>   Java. <br/>
-<b>Platform:</b> Android. <br/>
-<b>Role:</b> Development <br/>
-<b>Play store Link :</b>   https://play.google.com/store/apps/details?id=com.blackDialer  <br/>
+### <a name="spark"></a>Maheen Label tex Ltd
 
 
----
 
-#### IPhone Application Development
-
-<b>Overview:</b>  Dialer Application is successfully delivered for IPhone . The application is used in that country where VoIP is blocked. Special block removal technology is implemented to bypass voice call. <br/>
-<b>Language/Framework:</b>   Objective-C. <br/>
-<b>Platform:</b> IOS. <br/>
-<b>Role:</b> Development <br/>
-<b>App store Link :</b>   https://itunes.apple.com/us/app/blackdialer/id1081215460?ls=1&mt=8  <br/>
+<b>Overview:</b> Developed dynamic ERP Software and Data Warehouse  ( Lead Software Engineer ).Analyzed and Developed entire information flow and designed effective database module, Business Solution and software components for core business <br/>
+<b>Language/Framework:</b> Java, J2ee, Spring, Hibernate, Rest Service.<br/>
+<b>Platform:</b> Linux Centos.<br/>
+<b>Role:</b> Lead Software Engineer<br/>
 
 ---
 
-#### Content Management system
-<b>Overview:</b> A Web Application is developed by Struts2 Framework with Bootstrapto manage customers for dialer applications. The application is deployed in OpenShift Cloud.<br/>
-<b>Language/Framework:</b> Struts2 MVC framework, Bootstrap, JAX-RS API.<br/>
-<b>Platform:</b> Linux.<br/>
-<b>Role:</b> Development<br/>
 
 
----
 
 ### <a name="reli"></a>Relisource Technology Ltd
 
