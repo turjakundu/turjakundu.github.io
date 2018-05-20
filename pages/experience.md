@@ -19,7 +19,7 @@ description: Turja kundu's Experience
 
 ### <a name="ASAI"></a>ASA International, Bangladesh
 
-
+---
 
 <b>Overview:</b> Converting Business Requirements to Technical Solutions for  Micro Finance Banking system ,Collects requirement 12 Country's local IT team and other stake holder, translating and simplifying requirements ,Overall System analysis ( Financial and Operational part of Software),Define software architecture,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
 <b>Language/Framework:</b> Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
