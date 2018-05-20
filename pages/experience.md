@@ -9,8 +9,8 @@ description: Turja kundu's Experience
 <ul class="nav">
 <li><a href="#ASAI">ASA International</a></li>
 <li><a href="#spark">Maheen Label tex Ltd</a></li>
-<li><a href="#reli">Relisource Ltd</a></li>
-<li><a href="#mir"> Mir Technology </a></li>
+<li><a href="#reli">Relisource Technology Ltd</a></li>
+<li><a href="#mir"> Mir Technology Ltd</a></li>
 </ul>
 </div>
 </div>
