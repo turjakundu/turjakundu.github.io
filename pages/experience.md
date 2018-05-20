@@ -30,7 +30,7 @@ description: Turja kundu's Experience
 
 ### <a name="spark"></a>Maheen Label tex Ltd
 
-
+---
 
 <b>Overview:</b> Developed dynamic ERP Software and Data Warehouse  ( Lead Software Engineer ).Analyzed and Developed entire information flow and designed effective database module, Business Solution and software components for core business <br/>
 <b>Language/Framework:</b> Java, J2ee, Spring, Hibernate, Rest Service.<br/>
