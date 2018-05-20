@@ -9,7 +9,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
   <div class="navbar-inner">
       <ul class="nav">
           <li><a href="{{ BASE_PATH }}/assets/cv.pdf">cv</a></li>
-          <li><a href="https://github.com/turjakundu">github</a></li>
+          <li><a href="">github</a></li>
  
           <li><a href="https://www.facebook.com/Turja.Kundu">@fb</a></li>
       </ul>
