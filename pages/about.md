@@ -18,7 +18,7 @@ I am a young, energetic professional having positive attitude and always keen to
 
 
 
-[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/turja_cv.pdf)
+[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/cv.pdf)
 
 
 
@@ -30,8 +30,8 @@ I am a young, energetic professional having positive attitude and always keen to
     <div class="row-fluid">
         <div class="span5">
             Turja Kundu<br/>
-            Azimpur Govt Colony<br/>
-            Azimpur, Dhaka<br/>
+            1 No Road<br/>
+            Shyamoli, Dhaka<br/>
             Bangladesh<br/><br/>
 
             <div id="hide_email">
