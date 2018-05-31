@@ -8,7 +8,7 @@ description: Turja kundu's Experience
 <div class="navbar-inner">
 <ul class="nav">
 <li><a href="#ASAI">ASA International</a></li>
-<li><a href="#spark">Maheen Label tex Ltd</a></li>
+<li><a href="#spark">Sparkmind Technology Ltd</a></li>
 <li><a href="#reli">Relisource Technology Ltd</a></li>
 <li><a href="#mir"> Mir Technology Ltd</a></li>
 </ul>
@@ -22,17 +22,17 @@ description: Turja kundu's Experience
 ---
 
 <b>Overview:</b> Converting Business Requirements to Technical Solutions for  Micro Finance Banking system ,Collects requirement 12 Country's local IT team and other stake holder, translating and simplifying requirements ,Overall System analysis ( Financial and Operational part of Software),Define software architecture,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
-<b>Language/Framework:</b> Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
+<b>Language/Framework:</b> Java, Spring, Hibernate, Mysql,Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
 <b>Platform:</b> Windows.<br/>
 <b>Role:</b> Assistant Director<br/>
 
 ---
 
-### <a name="spark"></a>Maheen Label tex Ltd
+### <a name="spark"></a>SparkMind Technology Ltd
 
 ---
 
-<b>Overview:</b> Developed dynamic ERP Software and Data Warehouse  ( Lead Software Engineer ).Analyzed and Developed entire information flow and designed effective database module, Business Solution and software components for core business <br/>
+<b>Overview:</b> Developed Retailer Switch billing application  ( Sr. Software Engineer ) and dialer products for android and iphone.Analyzed and Developed entire information flow and designed effective database module, Business Solution and software components for core business <br/>
 <b>Language/Framework:</b> Java, J2ee, Spring, Hibernate, Rest Service.<br/>
 <b>Platform:</b> Linux Centos.<br/>
 <b>Role:</b> Lead Software Engineer<br/>
