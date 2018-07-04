@@ -18,7 +18,7 @@ I am a young, energetic professional having positive attitude and always keen to
 
 
 
-[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/cv.pdf)
+[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/turja_cv.pdf)
 
 
 
