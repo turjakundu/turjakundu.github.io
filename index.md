@@ -22,7 +22,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 
 <tr>
   <td class="left">
-    <a href="http://92.222.66.78:8081/dashboard/">
+    <a href="http://164.132.43.53:8081/dashboard/">
         <img src="assets/publpics/samplemixups_fig7.png" alt="Spark Switch" title="Spark Switch"/>
     </a>
   </td>
@@ -44,7 +44,7 @@ description: Turja Kundu is Software Engineer currently working as a contract ba
 
 <tr>
   <td class="left">
-    <a href="https://play.google.com/store/apps/details?id=com.blackDialer">
+    <a href="https://play.google.com/store/apps/details?id=com.sparkDialer">
         <img src="assets/publpics/iplotCorr.png" alt="Android black Dialer" title="Android black Dialer"/>
     </a>
   </td>
