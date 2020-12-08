@@ -21,23 +21,16 @@ description: Turja kundu's Experience
 
 ---
 
-<b>Overview:</b> Converting Business Requirements to Technical Solutions for  Micro Finance Banking system ,Collects requirement 12 Country's local IT team and other stake holder, translating and simplifying requirements ,Overall System analysis ( Financial and Operational part of Software),System Design,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
+<b>Overview:</b> Work on transforming a desktop-based micro finance banking solution to real time web based solution.
+Develop internal framework for well manageability of code and reduce time effort for quick development & deliverysolution according to requirements.
+Collects requirement from 13 Country's local IT team and other stake holder, translating and simplifying requirements, Overall System analysis ( Financial and Operational part of Software),System Design,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
 <b>Language/Framework:</b> Java, Spring, Hibernate, Mysql,Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
 <b>Platform:</b> Windows.<br/>
 <b>Role:</b> Assistant Director<br/>
 
 ---
 
-### <a name="spark"></a>SparkMind Technology Ltd
 
----
-
-<b>Overview:</b> Developed Retailer Switch billing application  ( Sr. Software Engineer ) and dialer products for android and iphone.Analyzed and Developed entire information flow and designed effective database module, Business Solution and software components for core business <br/>
-<b>Language/Framework:</b> Java, J2ee, Spring, Hibernate, Rest Service.<br/>
-<b>Platform:</b> Linux Centos.<br/>
-<b>Role:</b> Lead Software Engineer<br/>
-
----
 
 
 
@@ -60,27 +53,42 @@ description: Turja kundu's Experience
 
 ---
 
-#### Billing and Call Routing
 
-<b>Overview:</b> Billing and Billing Software developed for the telecom operators who need to Interconnect with other incumbent telecom operator. Invoice Generation of Billing for inbound and out bound operators and clearance and Blocking Calls is key feature of it. Call Routing service is used for routing inbound and outbound calls in Soft Switch. <br/>
-<b>Language/Framework:</b> Java, Oracle11gs.<br/>
+---
+
+#### VoIP tunneling Solution 
+
+<b>Overview:</b> Proxy server is developed in between dialer apps and Soft switch. Sip and RTP  protocol are handled in Proxy server. Server side development is done with C++.Client side of Mobile apps is integrated with different mobile platforms. <br/>
+<b>Language/Framework:</b> C/C++, Java,Mysql.<br/>
 <b>Platform:</b> Linux.<br/>
 <b>Role:</b> Development<br/>
 
 ---
+### Retailer Switch billing application
 
-#### Proxy Server and Instant Messaging
-
-<b>Overview:</b> Proxy server is used in between dialer apps and Soft switch. Sip and RTP  protocol are handled in Proxy server. Instant messaging is used in Dialer apps .Server side development is done with C++.Client side of  Instant messaging apps is integrated with different mobile platforms. <br/>
-<b>Language/Framework:</b> Java, C,Mysql.<br/>
-<b>Platform:</b> Linux.<br/>
-<b>Role:</b> Development<br/>
 
 ---
+
+<b>Overview:</b> Developed Retailer Switch billing application. Analyzed and Developed entire information flow and designed effective database module, User Interface to meet business requirements <br/>
+<b>Language/Framework:</b> PHP-CodeIgniter, MySql<br/>
+<b>Platform:</b> Linux Centos.<br/>
+
+
+---
+### Mobile application development
+---
+
+<b>Overview:</b> Developed dialer products for android and iphone. Integrate tunelling process <br/>
+<b>Language/Framework:</b> Java, Objective-C<br/>
+<b>Platform:</b> Android, iOS.<br/> 
+
+
+---
+
 
 #### IVR Services 
 
-<b>Overview:</b> onfiguration and Voice flow development for Interactive voice response Service(Tritio matra ,Radio G) which are successfully launched with Mobile Operators. <br/>
+<b>Overview:</b> Configuration and Voice flow development for Interactive voice response Service(Tritio matra ,Radio G) which are successfully launched with Mobile Operators. <br/>
 <b>Language/Framework:</b> Python,Asterisk.<br/>
 <b>Platform:</b> Linux.<br/>
 <b>Role:</b> Development<br/>
@@ -89,8 +97,8 @@ description: Turja kundu's Experience
 
 #### Web Development
 
-<b>Overview:</b> oA Web Application developed by python Django  MVC framework.. <br/>
-<b>Language/Framework:</b> Python.<br/>
+<b>Overview:</b> A Web Application developed to manage client information effectively <br/>
+<b>Language/Framework:</b> PHP-CodeIgniter, MySQL <br/>
 <b>Platform:</b> windows.<br/>
 <b>Role:</b> Development<br/>
 
