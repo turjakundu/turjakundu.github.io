@@ -7,7 +7,7 @@ description: Karl Broman's software
 <div class="navbar">
     <div class="navbar-inner">
         <ul class="nav">
-            <li><a href="Prof">Professional</a></li>
+            <li><a href="Prof">Research</a></li>
             <li><a href="Prof">Personal</a></li>
       
         </ul>
@@ -16,12 +16,13 @@ description: Karl Broman's software
 
 ---
 
-#### Professional interest
+#### Research interest
 
-Big Data <br/>
-Cloud Computing <br/>
-Data Warehouse <br/>
-
+Artificial Intelligence <br/>
+Machine Learning <br/>
+Cyber Security <br/>
+Data Privacy <br/>
+Data Mining <br/>
 
 ---
 
