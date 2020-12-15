@@ -17,7 +17,7 @@ description: Turja kundu's Experience
 
 ---
 
-### <a name="ASAI"></a>ASA International, Bangladesh
+### <a name="ASAI"></a>ASA International
 
 ---
 
