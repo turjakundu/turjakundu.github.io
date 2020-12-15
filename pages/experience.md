@@ -8,7 +8,7 @@ description: Turja kundu's Experience
 <div class="navbar-inner">
 <ul class="nav">
 <li><a href="#ASAI">ASA International</a></li>
-<li><a href="#spark">Sparkmind Technology Ltd</a></li>
+
 <li><a href="#reli">Relisource Technology Ltd</a></li>
 <li><a href="#mir"> Mir Technology Ltd</a></li>
 </ul>
@@ -21,8 +21,8 @@ description: Turja kundu's Experience
 
 ---
 
-<b>Overview:</b> Work on transforming a desktop-based micro finance banking solution to real time web based solution.
-Develop internal framework for well manageability of code and reduce time effort for quick development & deliverysolution according to requirements.
+<b>Overview:</b> Work on transforming a desktop-based micro finance banking solution to real time web based solution.\n
+Develop internal framework for well manageability of code and reduce time effort for quick development & deliverysolution according to requirements.  \n 
 Collects requirement from 13 Country's local IT team and other stake holder, translating and simplifying requirements, Overall System analysis ( Financial and Operational part of Software),System Design,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
 <b>Language/Framework:</b> Java, Spring, Hibernate, Mysql,Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
 <b>Platform:</b> Windows.<br/>
