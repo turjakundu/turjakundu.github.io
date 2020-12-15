@@ -1,13 +1,13 @@
 ---
 layout: page
 title: about
-description: Turja Kundu is Software Engineer currently working as a contract based Developer with Sparkmind Technologies.He received a B.Sc in Computer Science and Engineering in 2012,from BUET.
+description: Turja Kundu is Software Engineer currently working with ASA-International, a leading Micro Finance Banking Organization. He received a B.Sc in Computer Science and Engineering in 2012,from BUET.
 ---
 
-This is the personal website of Turja Kundu,I am currently working with Sparkmind Technology.i have completed B.Sc in Computer Science and Engineering in 2012,from BUET.  
+This is the personal website of Turja Kundu,I am currently working with ASA-International, a leading Micro Finance Banking Organization.i have completed B.Sc in Computer Science and Engineering in 2012, from BUET.  
 
 
-I would like to introduce myself as a highly motivated & dedicated professional with 4 years of progressive experience within Software Industry. During the tenure of my career I’ve worked in 
+I would like to introduce myself as a highly motivated & dedicated professional with 8 years of progressive experience within Software Industry. During the tenure of my career I’ve worked in 
 various platforms including enterprise level software development, mobile application development, database management, , and as well as web application development. 
 
 I always make sure that both the company’s and the client’s interests have been achieved while delivering software.

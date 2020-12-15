@@ -21,8 +21,8 @@ description: Turja kundu's Experience
 
 ---
 
-<b>Overview:</b> Work on transforming a desktop-based micro finance banking solution to real time web based solution.\n
-Develop internal framework for well manageability of code and reduce time effort for quick development & deliverysolution according to requirements.  \n 
+<b>Overview:</b> <br/>Work on transforming a desktop-based micro finance banking solution to real time web based solution.<br/>
+Develop internal framework for well manageability of code and reduce time effort for quick development & deliverysolution according to requirements. <br/>
 Collects requirement from 13 Country's local IT team and other stake holder, translating and simplifying requirements, Overall System analysis ( Financial and Operational part of Software),System Design,Maintain SDLC, Ensure integrity of desktop, mobile and web system by maintaining standard industry practice. <br/>
 <b>Language/Framework:</b> Java, Spring, Hibernate, Mysql,Microsoft Visual Studio 2012, WCF, ASP.NET MVC framework, Microsoft SQL Server, Stored Procedure, Triggers.<br/>
 <b>Platform:</b> Windows.<br/>
