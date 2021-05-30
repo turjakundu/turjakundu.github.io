@@ -56,7 +56,7 @@ Collects requirement from 13 Country's local IT team and other stake holder, tra
 
 ---
 
-#### VoIP tunneling Solution 
+#### VoIP Solution 
 
 <b>Overview:</b> Proxy server is developed in between dialer apps and Soft switch. Sip and RTP  protocol are handled in Proxy server. Server side development is done with C++.Client side of Mobile apps is integrated with different mobile platforms. <br/>
 <b>Language/Framework:</b> C/C++, Java,Mysql.<br/>
