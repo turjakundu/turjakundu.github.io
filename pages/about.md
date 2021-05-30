@@ -8,12 +8,7 @@ This is the personal website of Turja Kundu,I am currently working with ASA-Inte
 
 
 I would like to introduce myself as a highly motivated & dedicated professional with 8 years of progressive experience within Software Industry. During the tenure of my career I’ve worked in 
-various platforms including enterprise level software development, mobile application development, database management, , and as well as web application development. 
-
-I always make sure that both the company’s and the client’s interests have been achieved while delivering software.
-
-My career dream is a challenging position in a valued place where motivations are driven by technological challenges that are addressed with innovative and state-of-the-art solutions. 
-I am a young, energetic professional having positive attitude and always keen to learn new tools and technology. 
+various platforms including enterprise level software development, mobile application development, database management, and as well as web application development. 
 
 
 
