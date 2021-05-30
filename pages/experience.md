@@ -7,7 +7,7 @@ description: Turja kundu's Experience
 <div class="navbar">
 <div class="navbar-inner">
 <ul class="nav">
-<li><a href="#ASAI">ASA International</a></li>
+<li><a href="#ASAI">ASAI Management Services Limited</a></li>
 
 <li><a href="#reli">Relisource Technology Ltd</a></li>
 <li><a href="#mir"> Mir Technology Ltd</a></li>
@@ -17,7 +17,7 @@ description: Turja kundu's Experience
 
 ---
 
-### <a name="ASAI"></a>ASA International
+### <a name="ASAI"></a>ASAI Management Services Limited
 
 ---
 
