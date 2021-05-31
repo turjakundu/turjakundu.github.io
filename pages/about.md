@@ -13,7 +13,7 @@ various platforms including enterprise level software development, mobile applic
 
 
 
-[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/turja_cv.pdf)
+
 
 
 
