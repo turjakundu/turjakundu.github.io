@@ -14,21 +14,6 @@ description: Turja kundu's teaching
 </div>
 
 
-### <a name="current"></a>Victroia University of Bangldesh
-
----
-
-#### lecturer
-
-
-
-##### Conducted Courses
-
-Database Management Systems <br/>
-Networking & Networking Sessional  <br/>
-Structured Programming Language <br/>
-
-
 
 ---
 
