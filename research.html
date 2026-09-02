@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Turja Kundu</title>
+  <meta name="description" content="Research vision, contributions, and agenda of Turja Kundu — scalable graph learning, high-performance computing, and structural representations for graphs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --white: #ffffff;
+      --bg: #f5f5f5;
+      --text: #222222;
+      --text-muted: #555555;
+      --text-light: #888888;
+      --link: #2a7ae2;
+      --link-hover: #1a5fc0;
+      --border: #e0e0e0;
+      --accent: #2a7ae2;
+      --sidebar-width: 280px;
+      --nav-height: 44px;
+
+      /* Project accent colors */
+      --proj1: #1565c0;   /* IT Automation — blue */
+      --proj1-bg: #e8f0fd;
+      --proj2: #6a1b9a;   /* Contamination — purple */
+      --proj2-bg: #f5eefa;
+      --proj3: #1b5e20;   /* green */
+      --proj3-bg: #eaf4eb;
+      --proj4: #b8860b;   /* amber */
+      --proj4-bg: #fdf4e0;
+      --proj5: #ad1457;   /* magenta */
+      --proj5-bg: #fce7f0;
+      --proj6: #00695c;   /* teal */
+      --proj6-bg: #e2f2f0;
+    }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Inter','Helvetica Neue',Arial,sans-serif; font-size:14px; color:var(--text); background:var(--bg); line-height:1.6; }
+    a { color:var(--link); text-decoration:none; }
+    a:hover { color:var(--link-hover); text-decoration:underline; }
+    p { text-wrap:pretty; }
+    :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+    /* ── Top Nav ── */
+    .masthead { background:var(--white); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:100; }
+    .masthead-inner { max-width:1100px; margin-inline:auto; padding:0 var(--sidebar-width) 0 0; display:flex; align-items:center; justify-content:flex-end; }
+    .masthead-nav { display:flex; list-style:none; }
+    .masthead-nav a { display:block; padding:12px 14px; font-size:13px; font-weight:500; color:var(--text-muted); text-decoration:none; border-bottom:2px solid transparent; transition:color .15s,border-color .15s; }
+    .masthead-nav a:hover { color:var(--text); border-bottom-color:var(--accent); text-decoration:none; }
+    .masthead-nav a.active { color:var(--accent); border-bottom-color:var(--accent); }
+    .nav-toggle { display:none; align-items:center; justify-content:center; width:40px; height:44px; cursor:pointer; background:none; border:none; color:var(--text-muted); }
+
+    /* ── Layout ── */
+    .page-wrapper { max-width:1100px; margin-inline:auto; display:grid; grid-template-columns:var(--sidebar-width) 1fr; min-height:calc(100vh - var(--nav-height)); align-items:start; }
+
+    /* ── Sidebar ── */
+    .sidebar { background:var(--white); border-right:1px solid var(--border); padding:32px 20px 40px; position:sticky; top:var(--nav-height); max-height:calc(100vh - var(--nav-height)); overflow-y:auto; }
+    .author-avatar { width:150px; height:150px; border-radius:50%; overflow:hidden; margin:0 auto 16px; background:#dce8f5; display:flex; align-items:center; justify-content:center; font-size:3.1rem; font-weight:300; color:var(--accent); letter-spacing:-1px; }
+    .author-avatar img { width:100%; height:100%; object-fit:cover; }
+    .author-name { font-size:16px; font-weight:600; color:var(--text); text-align:center; line-height:1.3; margin-bottom:6px; }
+    .author-bio-short { font-size:12.5px; color:var(--text-muted); text-align:center; line-height:1.5; margin-bottom:6px; }
+    .author-affil { font-size:12px; color:var(--text-light); text-align:center; line-height:1.6; margin-bottom:16px; }
+    .sidebar-divider { border:none; border-top:1px solid var(--border); margin:14px 0; }
+    .sidebar-links { list-style:none; display:flex; flex-direction:column; gap:4px; }
+    .sidebar-links li { display:flex; align-items:center; gap:8px; font-size:13px; }
+    .sidebar-links li svg { width:16px; height:16px; flex-shrink:0; color:var(--text-light); }
+    .sidebar-links a { color:var(--text-muted); text-decoration:none; font-size:13px; }
+    .sidebar-links a:hover { color:var(--link); text-decoration:underline; }
+    .sidebar-links .plain-text { color:var(--text-muted); }
+    .sidebar-section-label { font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--text-light); margin-bottom:10px; margin-top:18px; }
+
+    /* ── Research nav (quick-jump) ── */
+    .research-nav { list-style:none; display:flex; flex-direction:column; gap:2px; margin-top:4px; }
+    .research-nav a { font-size:12.5px; color:var(--text-muted); padding:4px 8px; border-radius:4px; display:block; transition:background .12s,color .12s; }
+    .research-nav a:hover { background:#f0f4ff; color:var(--link); text-decoration:none; }
+    .research-nav a.rn-active { background:#e8f0fd; color:var(--proj1); font-weight:600; }
+    .rn-dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; vertical-align:middle; position:relative; top:-1px; }
+
+    /* ── Main ── */
+    .main-content { background:var(--white); padding:36px 40px 60px; }
+    .page-section { margin-bottom:40px; }
+    .section-title { font-size:18px; font-weight:600; color:var(--text); margin-bottom:12px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+    .section-body { font-size:14px; color:var(--text); line-height:1.7; }
+    .section-body p { margin-bottom:12px; max-width:72ch; }
+    .section-body p:last-child { margin-bottom:0; }
+
+    /* ── Vision pillars ── */
+    .vision-pillars { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0 6px; }
+    .pillar {
+      display:inline-flex; align-items:center; gap:7px;
+      font-size:12.5px; font-weight:600;
+      padding:5px 12px; border-radius:20px;
+      border:1px solid;
+    }
+    .pillar-lme  { background:#e8f0fd; color:#1565c0; border-color:#b3caf5; }
+    .pillar-se   { background:#fce4ec; color:#880e4f; border-color:#f48fb1; }
+    .pillar-dc   { background:#f5eefa; color:#6a1b9a; border-color:#ce93d8; }
+    .pillar-rw   { background:#e8f5e9; color:#1b5e20; border-color:#a5d6a7; }
+    .pillar-hpc  { background:#fdf4e0; color:#8a6400; border-color:#e6d3a3; }
+    .pillar-tl   { background:#e2f2f0; color:#00695c; border-color:#8fc9c2; }
+    .pillar .dot { width:7px; height:7px; border-radius:50%; background:currentColor; }
+
+    /* ── Project cards ── */
+    .projects-list { display:flex; flex-direction:column; gap:24px; }
+    .project-card {
+      border:1px solid var(--border);
+      border-radius:6px;
+      overflow:hidden;
+    }
+    .project-header {
+      display:flex; align-items:flex-start; gap:14px;
+      padding:16px 20px 14px;
+      border-bottom:1px solid var(--border);
+    }
+    .project-num {
+      width:28px; height:28px; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      font-size:12px; font-weight:700; flex-shrink:0; margin-top:1px;
+    }
+    .project-header-text { flex:1; }
+    .project-title { font-size:15px; font-weight:600; color:var(--text); line-height:1.35; margin-bottom:4px; }
+    .project-status {
+      display:inline-block; font-size:11px; font-weight:600;
+      padding:1px 7px; border-radius:3px; letter-spacing:.03em;
+    }
+    .status-active { background:#e8f5e9; color:#2e7d32; }
+    .status-ongoing { background:#fff8e1; color:#f57f17; }
+
+    .project-body { padding:16px 20px; background:#fafafa; }
+    .project-desc { font-size:13.5px; color:var(--text-muted); line-height:1.7; margin-bottom:14px; max-width:68ch; }
+    .project-papers-label { font-size:11px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--text-light); margin-bottom:8px; }
+    .project-papers { list-style:none; display:flex; flex-direction:column; gap:6px; }
+    .proj-paper-item { display:flex; align-items:flex-start; gap:8px; font-size:13px; }
+    .proj-paper-item::before { content:''; width:5px; height:5px; border-radius:50%; background:var(--text-light); flex-shrink:0; margin-top:6px; }
+    .proj-paper-venue {
+      display:inline-block; font-size:11px; font-weight:700;
+      padding:1px 5px; border-radius:3px; margin-right:4px;
+      white-space:nowrap; flex-shrink:0;
+    }
+    .proj-paper-text { color:var(--text-muted); line-height:1.4; }
+    .proj-paper-text a { color:var(--text); font-weight:500; }
+    .proj-paper-text a:hover { color:var(--link); }
+    .proj-paper-text .wip { font-style:italic; color:var(--text-light); font-size:12px; }
+
+    /* project 1 colors */
+    .p1 .project-num  { background:var(--proj1-bg); color:var(--proj1); }
+    .p1 .project-header { border-left:3px solid var(--proj1); }
+    .p1 .proj-paper-venue { background:var(--proj1-bg); color:var(--proj1); }
+
+    /* project 2 colors */
+    .p2 .project-num  { background:var(--proj2-bg); color:var(--proj2); }
+    .p2 .project-header { border-left:3px solid var(--proj2); }
+    .p2 .proj-paper-venue { background:var(--proj2-bg); color:var(--proj2); }
+
+    /* project 3 colors */
+    .p3 .project-num  { background:var(--proj3-bg); color:var(--proj3); }
+    .p3 .project-header { border-left:3px solid var(--proj3); }
+    .p3 .proj-paper-venue { background:var(--proj3-bg); color:var(--proj3); }
+
+    /* project 4-6 colors */
+    .p4 .project-num  { background:var(--proj4-bg); color:var(--proj4); }
+    .p4 .project-header { border-left:3px solid var(--proj4); }
+    .p4 .proj-paper-venue { background:var(--proj4-bg); color:var(--proj4); }
+    .p5 .project-num  { background:var(--proj5-bg); color:var(--proj5); }
+    .p5 .project-header { border-left:3px solid var(--proj5); }
+    .p5 .proj-paper-venue { background:var(--proj5-bg); color:var(--proj5); }
+    .p6 .project-num  { background:var(--proj6-bg); color:var(--proj6); }
+    .p6 .project-header { border-left:3px solid var(--proj6); }
+    .p6 .proj-paper-venue { background:var(--proj6-bg); color:var(--proj6); }
+    .status-planned { background:#eceff1; color:#455a64; }
+
+    /* ── Course table ── */
+    .course-table { width:100%; border-collapse:collapse; font-size:13px; margin-top:6px; }
+    .course-table th {
+      text-align:left; font-size:11px; font-weight:700; letter-spacing:.06em;
+      color:var(--text-light); padding:6px 10px 6px 0; border-bottom:1px solid var(--border);
+    }
+    .course-table td { padding:7px 10px 7px 0; border-bottom:1px solid #f0f0f0; color:var(--text-muted); vertical-align:top; }
+    .course-table td:first-child { color:var(--text); font-weight:500; }
+    .course-table tr:last-child td { border-bottom:none; }
+    .lab-mark { color:var(--proj1); font-weight:700; margin-left:4px; }
+    .table-note { font-size:12px; color:var(--text-light); margin-top:8px; }
+
+    /* ── Method list ── */
+    .method-list { list-style:none; display:flex; flex-direction:column; gap:14px; padding-top:4px; }
+    .method-item { font-size:13.5px; color:var(--text-muted); line-height:1.65; max-width:70ch; }
+    .method-item strong { color:var(--text); font-weight:600; }
+
+    /* ── Course pills ── */
+    .course-pills { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
+    .course-pill { font-size:12.5px; padding:4px 11px; border-radius:20px; border:1px solid var(--border); background:#fafafa; color:var(--text-muted); }
+    .course-pill.dev { background:#fdf4e0; border-color:#e6d3a3; color:#8a6400; }
+
+    /* ── Future direction ── */
+    .future-list { list-style:none; display:flex; flex-direction:column; gap:10px; padding-top:4px; }
+    .future-item { display:flex; align-items:flex-start; gap:10px; font-size:13.5px; color:var(--text-muted); line-height:1.6; }
+    .future-item::before { content:'→'; color:var(--text-light); flex-shrink:0; font-size:13px; padding-top:1px; }
+
+    /* ── Footer ── */
+    .footer-inner { max-width:1100px; margin-inline:auto; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+
+    /* ── Responsive ── */
+    @media (max-width:768px) {
+      .masthead-inner { padding-right:0; justify-content:space-between; padding-inline:16px; }
+      .masthead-nav { display:none; flex-direction:column; position:absolute; top:var(--nav-height); left:0; right:0; background:var(--white); border-bottom:1px solid var(--border); z-index:99; padding:8px 0; }
+      .masthead-nav.open { display:flex; }
+      .masthead-nav a { padding:10px 20px; border-bottom:none; }
+      .nav-toggle { display:flex; }
+      .page-wrapper { grid-template-columns:1fr; }
+      .sidebar { position:static; max-height:none; border-right:none; border-bottom:1px solid var(--border); }
+      .author-avatar { width:118px; height:118px; font-size:2.5rem; }
+      .main-content { padding:24px 20px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Masthead ── -->
+  <div class="masthead">
+    <div class="masthead-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="masthead-nav" id="mastheadNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="index.html#publications">Publications</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── Page ── -->
+  <div class="page-wrapper">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" aria-label="Author information">
+      <div class="author-avatar">
+        <img src="images/turja.jpg" alt="Turja Kundu" width="170" height="170" loading="lazy" />
+      </div>
+      <div class="author-name">Turja Kundu</div>
+      <div class="author-bio-short">PhD Candidate</div>
+      <div class="author-affil">
+        Computer Science and Engineering<br>
+        University of North Texas<br>
+        Denton, TX, USA
+      </div>
+
+      <hr class="sidebar-divider" />
+
+      <ul class="sidebar-links">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="plain-text">Denton, TX, USA</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+          <a href="mailto:turjakundu@my.unt.edu">turjakundu@my.unt.edu</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          <!-- TODO: paste your Google Scholar profile URL -->
+          <a href="https://scholar.google.com/citations?user=Pz8UEGgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <!-- TODO: paste your GitHub profile URL -->
+          <a href="https://github.com/turja16/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <!-- TODO: paste your LinkedIn profile URL -->
+          <a href="https://www.linkedin.com/in/turja-k-a19a7548/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
+        </li>
+      </ul>
+
+      <hr class="sidebar-divider" style="margin-top:20px;" />
+      <div class="sidebar-section-label">On this page</div>
+      <ul class="research-nav" id="researchNav">
+        <li><a href="#vision" class="rn-active"><span class="rn-dot" style="background:#555"></span>Research Vision</a></li>
+        <li><a href="#contributions"><span class="rn-dot" style="background:var(--proj1)"></span>Contributions</a></li>
+        <li><a href="#agenda"><span class="rn-dot" style="background:var(--proj4)"></span>Research Agenda</a></li>
+        <li><a href="#students"><span class="rn-dot" style="background:var(--proj6)"></span>Work for Students</a></li>
+      </ul>
+    </aside>
+
+    <!-- ── Main ── -->
+    <main class="main-content" id="main">
+
+      <!-- Vision -->
+      <section class="page-section" id="vision">
+        <h1 class="section-title">Research Vision</h1>
+        <div class="section-body">
+          <p>
+            Latency decides whether a prediction is usable. Interpretability decides whether it is trusted.
+            In scientific computing, neither is optional. Yet modern graph learning relies on repeated
+            neighborhood propagation that is expensive to serve, hard to interpret, and difficult to maintain
+            as data evolves. My research asks a single question: <strong>how can graph structure be transformed
+            into an explicit, interpretable, and computationally efficient representation for learning?</strong>
+          </p>
+          <p>
+            Graphs are the native representation for much of computational science. Particle detectors reconstruct
+            tracks and classify events from hit graphs; biologists predict function from protein-interaction and
+            molecular graphs; numerical libraries order and precondition sparse matrices by treating them as graphs.
+            Outside science the same abstraction carries knowledge bases and fraud detection. In nearly all of them
+            the graph is large, it changes, and an answer is wanted quickly &mdash; exactly where propagation-based
+            models are hardest to deploy.
+          </p>
+          <p>
+            Graph structure often carries information that node attributes do not, yet most systems access it
+            through message passing, coupling every prediction to the adjacency matrix. The cost is paid twice:
+            in <strong>latency</strong>, because each query must reassemble a neighborhood, and in
+            <strong>interpretability</strong>, because structural evidence dissolves into hidden states.
+            I instead transform topology into explicit, inspectable features, selected on evidence of what each
+            one contributes.
+          </p>
+        </div>
+
+        <div class="vision-pillars" aria-label="Research focus areas">
+          <span class="pillar pillar-lme"><span class="dot"></span>Scalable Graph Learning</span>
+          <span class="pillar pillar-hpc"><span class="dot"></span>High-Performance Computing</span>
+          <span class="pillar pillar-dc"><span class="dot"></span>Interpretable Structure</span>
+          <span class="pillar pillar-rw"><span class="dot"></span>Scientific Computing</span>
+        </div>
+      </section>
+
+      <!-- Contributions -->
+      <section class="page-section" id="contributions">
+        <h2 class="section-title">Research Contributions</h2>
+        <div class="projects-list">
+
+          <div class="project-card p1" id="contrib1">
+            <div class="project-header">
+              <div class="project-num">1</div>
+              <div class="project-header-text">
+                <div class="project-title">Explicit Structural Representations for Graph Learning</div>
+                <span class="project-status status-active">Primary contribution</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                <strong>ATLAS</strong> (Adaptive Topology-based Learning at Scale) is a propagation-free framework
+                that extracts topology as explicit channels before learning begins: multi-resolution community
+                assignments, one-hop neighborhood features, and label-derived structural priors, all fed with node
+                attributes to a compact multilayer perceptron. Training uses independent minibatches, and inference
+                requires no neighborhood expansion.
+              </p>
+              <p class="project-desc">
+                Which channels belong is the substantive problem, which I addressed with a finite-sample
+                information-theoretic criterion: a channel earns inclusion exactly when the label information it
+                contributes exceeds the estimation cost it introduces. The criterion predicts an interior optimum in
+                community resolution and reframes when structure helps at all &mdash; what matters is whether classes
+                induce distinguishable connection patterns, not whether neighbors share labels, so edge homophily
+                poorly predicts learnability.
+              </p>
+              <p class="project-desc">
+                Across 19 benchmarks, ATLAS attains the lowest average rank among 17 competing methods at medium
+                scale and matches the best scalable baseline at million-node scale. On <em>ogbn-products</em>,
+                inference completes in roughly half a second against 83 and 66 seconds for the strongest
+                sampling-based competitors. Because each channel is a named quantity, the structural basis of a
+                prediction stays recoverable.
+              </p>
+              <div class="project-papers-label">Papers</div>
+              <ul class="project-papers">
+                <li class="proj-paper-item">
+                  <span class="proj-paper-venue">Under Review</span>
+                  <span class="proj-paper-text">
+                    <a href="https://arxiv.org/abs/2512.14908" target="_blank" rel="noopener noreferrer">
+                      ATLAS: Adaptive Topology-based Learning at Scale for Homophilic and Heterophilic Graphs
+                    </a>
+                    &mdash; Turja Kundu, Sanjukta Bhowmick
+                  </span>
+                </li>
+                <li class="proj-paper-item">
+                  <span class="proj-paper-venue">SIAM 2025</span>
+                  <span class="proj-paper-text">
+                    Effect of Graph Structure vs. Feature Quality for GCN
+                    &mdash; Turja Kundu, Sanjukta Bhowmick <span class="wip">(poster)</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card p2" id="contrib2">
+            <div class="project-header">
+              <div class="project-num">2</div>
+              <div class="project-header-text">
+                <div class="project-title">Low-Latency Inference for Scientific Computing</div>
+                <span class="project-status status-active">Active</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                <strong>HIOS</strong> is a hierarchical inter-operator scheduler for multi-GPU inference. It exploits
+                a measured crossover: large operators contend for GPU resources under naive parallelization while
+                small ones benefit from it. HIOS therefore spreads large operators across devices, groups small ones
+                within each device, and maps the longest remaining path onto a single GPU. Built on CUDA-aware MPI
+                and cuDNN, it cuts latency by up to 16.5% over the prior state of the art.
+              </p>
+              <p class="project-desc">
+                At <strong>Fermilab</strong>, under Dr. Giuseppe Cerati, I built an inference-as-a-service pipeline
+                integrating LArSoft with NuSONIC&rsquo;s Triton platform for the Convolutional Visual Network used in
+                ICARUS, SBN, and DUNE event classification, characterizing latency and throughput against in-process
+                execution.
+              </p>
+              <div class="project-papers-label">Papers</div>
+              <ul class="project-papers">
+                <li class="proj-paper-item">
+                  <span class="proj-paper-venue">IEEE Cluster 2023</span>
+                  <span class="proj-paper-text">
+                    HIOS: Hierarchical Inter-Operator Scheduler for Real-Time Inference of DAG-Structured Deep
+                    Learning Models on Multiple GPUs &mdash; Turja Kundu, Tao Shu
+                  </span>
+                </li>
+                <li class="proj-paper-item">
+                  <span class="proj-paper-venue">SC Workshops 2023</span>
+                  <span class="proj-paper-text">
+                    Accuracy-Constrained Efficiency Optimization and GPU Profiling of CNN Inference
+                    &mdash; Y. Zhang, D. Pandey, D. Wu, Turja Kundu, R. Li, T. Shu
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card p3" id="contrib3">
+            <div class="project-header">
+              <div class="project-num">3</div>
+              <div class="project-header-text">
+                <div class="project-title">Graph Structure Under Perturbation</div>
+                <span class="project-status status-ongoing">Collaborative</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                In collaborative work at ICCS 2025, we generalized the rich club to <em>scattered rich clubs</em> and
+                introduced a degree-of-scatteredness metric. Across ten real-world networks the metric spans nearly
+                its full range, showing that networks differ fundamentally in resilience under targeted attack, and
+                that sensitivity is often localized to regions we recover by snowball sampling in a single pass
+                rather than by exact centrality.
+              </p>
+              <div class="project-papers-label">Papers</div>
+              <ul class="project-papers">
+                <li class="proj-paper-item">
+                  <span class="proj-paper-venue">ICCS 2025</span>
+                  <span class="proj-paper-text">
+                    Centrality Resilience in Complex Networks
+                    &mdash; F. A. Irany, Turja Kundu, S. Sarakar, A. Mukherjee, Sanjukta Bhowmick
+                    <span class="wip">(short paper)</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Agenda -->
+      <section class="page-section" id="agenda">
+        <h2 class="section-title">Research Agenda</h2>
+        <div class="projects-list">
+
+          <div class="project-card p4" id="thrust1">
+            <div class="project-header">
+              <div class="project-num">I</div>
+              <div class="project-header-text">
+                <div class="project-title">Selecting and Maintaining Structural Representations</div>
+                <span class="project-status status-active">Active</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                ATLAS answered the statistical half of this question for one family of summaries. Generalizing across
+                families, and keeping the answer valid as graphs change, is the work ahead. Core-periphery
+                organization, biconnected components, <em>k</em>-core structure, and spectral coordinates each impose
+                a different label prior, so I will generalize the ATLAS inclusion criterion into a selection rule
+                spanning summary families.
+              </p>
+              <p class="project-desc">
+                Efficiency is the binding obstacle: pipelines compute summaries independently despite shared work,
+                and ATLAS pays one community-detection run per resolution &mdash; the dominant expense at million-node
+                scale. Because real partitions are not strictly nested, I will characterize when partial hierarchy
+                can recover a full resolution profile in far fewer passes.
+              </p>
+              <p class="project-desc">
+                Selection alone is not enough. Scientific and operational graphs are rarely static, with detectors
+                streaming new events and knowledge and transaction graphs growing daily, yet current systems
+                recompute from scratch whenever structure changes. I will develop update algorithms that localize
+                recomputation to the region a graph edit affects, with criteria for when a representation is still
+                accurate enough to reuse. ATLAS supplies a starting point: I proved a stability bound on how far the
+                label information carried by a community family can shift when the family changes, and extending it
+                to genuine graph evolution is my next result.
+              </p>
+              <p class="project-desc">
+                <strong>The target</strong> is a diagnostic that answers, before training begins, whether a graph
+                contains structural signal, which representations carry it, what they cost, and how long they stay
+                valid.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card p5" id="thrust2">
+            <div class="project-header">
+              <div class="project-num">II</div>
+              <div class="project-header-text">
+                <div class="project-title">Parallel Graph Algorithms and Performance Modeling on Accelerators</div>
+                <span class="project-status status-active">Active</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                Both halves of Thrust I depend on algorithms fast enough for the scale at which data arrives. I am
+                developing a GPU algorithm for <strong>biconnected component decomposition</strong> that replaces the
+                serialization of classical depth-first traversal with multiple concurrent traversals, and I intend to
+                redesign connectivity, decomposition, and traversal primitives more broadly for accelerators.
+              </p>
+              <p class="project-desc">
+                Beyond individual kernels, I will build performance models for graph workloads. HIOS shows that the
+                right parallelization strategy inverts once operator size passes a hardware-dependent threshold, and
+                the analogous thresholds for structural preprocessing are unknown. Since a graph and its summary can
+                differ in size by orders of magnitude, these models will guide placement and scheduling.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card p6" id="thrust3">
+            <div class="project-header">
+              <div class="project-num">III</div>
+              <div class="project-header-text">
+                <div class="project-title">Is the Knowledge Inside a Language Model Graph-Structured?</div>
+                <span class="project-status status-planned">Planned</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-desc">
+                Language models are used as knowledge bases, yet what they know is stored implicitly, so no one can
+                say in advance which questions a model will answer reliably. Recent work makes a first measurement:
+                prompt a model on individual facts from a knowledge graph, score each entity by how many of its facts
+                the model gets right, and neighboring entities score alike &mdash; more so than randomly matched
+                entities of equal degree. The organization is real, but it is measured on a graph we supplied.
+              </p>
+              <p class="project-desc">
+                My question is whether a model has a knowledge structure of its own. I will recover a graph from the
+                model&rsquo;s own answers rather than from Wikidata, and test how far the two agree. Related questions
+                follow: do the regions a model does not know form communities at a particular scale, or scatter?
+                Which relation types carry the correlation? Does a fact injected by fine-tuning spread to graph
+                neighbors? And how few probes suffice to map a model of a given size?
+              </p>
+              <p class="project-desc">
+                <strong>The result</strong> is an audit that reports where a model is weak before deployment, and
+                which queries to send to retrieval instead.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Student entry points -->
+      <section class="page-section" id="students">
+        <h2 class="section-title">Entry Points for Student Researchers</h2>
+        <div class="section-body">
+          <p>
+            This agenda is designed to be accessible to undergraduates. Propagation-free frameworks train on a
+            single GPU, and many structural analyses run independently of model training. Each thrust admits
+            semester-scale entry points:
+          </p>
+        </div>
+        <ul class="future-list">
+          <li class="future-item">
+            <strong style="color:var(--text);font-weight:600;">Thrust I</strong> &mdash; measure how much a single
+            structural summary contributes across a handful of graphs.
+          </li>
+          <li class="future-item">
+            <strong style="color:var(--text);font-weight:600;">Thrust II</strong> &mdash; GPU kernel-level work with a
+            visible deliverable, such as a parallel k-core implementation benchmarked against a serial
+            baseline.
+          </li>
+          <li class="future-item">
+            <strong style="color:var(--text);font-weight:600;">Thrust III</strong> &mdash; measure knowledge homophily in Knowledge graph.
+          </li>
+        </ul>
+        <div class="section-body" style="margin-top:16px;">
+          <p>
+            I mentored two undergraduates through the CRA UR2PhD program in summer 2025 and completed its mentor
+            training. My aim is a workshop paper or poster for each student.
+            More on how I work with students is on the <a href="teaching.html">teaching page</a>.
+          </p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer style="border-top:1px solid var(--border);background:var(--white);padding:14px 40px;font-size:12px;color:var(--text-light);">
+    <div class="footer-inner">
+      <span>© 2026 Turja Kundu &nbsp;·&nbsp; University of North Texas</span>
+      <span>Last updated: September 2026</span>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const nav = document.getElementById('mastheadNav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+
+    // Sidebar quick-jump active state on scroll
+    const rnLinks = document.querySelectorAll('.research-nav a');
+    const anchors = ['vision','contributions','agenda','students'].map(id => document.getElementById(id)).filter(Boolean);
+    const onScroll = () => {
+      if (!anchors.length) return;
+      let current = anchors[0];
+      anchors.forEach(el => { if (window.scrollY + 120 >= el.offsetTop) current = el; });
+      rnLinks.forEach(l => l.classList.toggle('rn-active', l.getAttribute('href') === '#' + current.id));
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+</body>
+</html>

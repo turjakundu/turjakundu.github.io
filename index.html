@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turja Kundu — PhD Candidate, University of North Texas</title>
+  <meta name="description" content="PhD candidate at the University of North Texas working on high-performance computing, scalable graph learning, and temporal/dynamic graph learning." />
+  <meta property="og:title" content="Turja Kundu" />
+  <meta property="og:description" content="PhD candidate at the University of North Texas. High-performance computing, scalable graph learning, temporal and dynamic graphs." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --white: #ffffff;
+      --bg: #f5f5f5;
+      --sidebar-bg: #ffffff;
+      --text: #222222;
+      --text-muted: #555555;
+      --text-light: #888888;
+      --link: #2a7ae2;
+      --link-hover: #1a5fc0;
+      --border: #e0e0e0;
+      --accent: #2a7ae2;
+      --sidebar-width: 280px;
+      --nav-height: 44px;
+    }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body {
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { color: var(--link-hover); text-decoration: underline; }
+    p { text-wrap: pretty; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+    /* ── Top Nav ── */
+    .masthead {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .masthead-inner {
+      max-width: 1100px;
+      margin-inline: auto;
+      padding: 0 var(--sidebar-width) 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .masthead-nav {
+      display: flex;
+      list-style: none;
+    }
+    .masthead-nav a {
+      display: block;
+      padding: 12px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .masthead-nav a:hover {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+      text-decoration: none;
+    }
+    .masthead-nav a.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* ── Mobile nav toggle ── */
+    .nav-toggle {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 40px; height: 44px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+    }
+
+    /* ── Page Layout ── */
+    .page-wrapper {
+      max-width: 1100px;
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: var(--sidebar-width) 1fr;
+      min-height: calc(100vh - var(--nav-height));
+      align-items: start;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      background: var(--white);
+      border-right: 1px solid var(--border);
+      padding: 32px 20px 40px;
+      position: sticky;
+      top: var(--nav-height);
+      max-height: calc(100vh - var(--nav-height));
+      overflow-y: auto;
+    }
+    .author-avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 16px;
+      background: #dce8f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.1rem;
+      font-weight: 300;
+      color: var(--accent);
+      letter-spacing: -1px;
+    }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .author-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+    .author-bio-short {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 6px;
+    }
+    .author-affil {
+      font-size: 12px;
+      color: var(--text-light);
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .sidebar-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 14px 0;
+    }
+    .sidebar-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .sidebar-links li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+    }
+    .sidebar-links li svg,
+    .sidebar-links li .link-icon {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      color: var(--text-light);
+    }
+    .sidebar-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .sidebar-links a:hover { color: var(--link); text-decoration: underline; }
+    .sidebar-links .plain-text { color: var(--text-muted); }
+    .sidebar-section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 10px;
+      margin-top: 18px;
+    }
+
+    /* ── Main Content ── */
+    .main-content {
+      background: var(--white);
+      padding: 36px 40px 60px;
+      border-left: none;
+      min-height: 100%;
+    }
+
+    /* ── Page Sections ── */
+    .page-section { margin-bottom: 36px; }
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-body {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .section-body p { margin-bottom: 12px; max-width: 72ch; }
+    .section-body p:last-child { margin-bottom: 0; }
+    .section-body strong { font-weight: 600; }
+
+    /* ── News ── */
+    .news-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .news-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-date {
+      color: var(--text-light);
+      font-size: 12.5px;
+      font-weight: 500;
+      padding-top: 1px;
+      white-space: nowrap;
+    }
+    .news-text { color: var(--text-muted); }
+    .news-text a { color: var(--link); }
+    .news-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+    .badge-review { background: #f5f5f5; color: #757575; }
+    .badge-iccs { background: #e8f5e9; color: #2e7d32; }
+    .badge-cluster { background: #dceeff; color: #1a5fc0; }
+    .badge-lab { background: #fff3e0; color: #e65100; }
+
+    /* ── Publications ── */
+    .pub-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+    .pub-entry {
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .pub-entry:last-child { border-bottom: none; }
+    .pub-venue-line {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .venue-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 3px;
+      letter-spacing: 0.03em;
+    }
+    .vtag-cluster { background: #dceeff; color: #1a5fc0; }
+    .vtag-iccs { background: #e8f5e9; color: #2e7d32; }
+    .vtag-workshop { background: #f3e5f5; color: #6a1b9a; }
+    .vtag-poster { background: #fce4ec; color: #880e4f; }
+    .vtag-review { background: #f5f5f5; color: #757575; }
+    .pub-title-line {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 3px;
+    }
+    .pub-title-line a { color: var(--text); }
+    .pub-title-line a:hover { color: var(--link); text-decoration: underline; }
+    .pub-authors-line {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+    .pub-authors-line strong { font-weight: 600; color: var(--text); }
+    .pub-links-line { margin-top: 4px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .pub-link-btn {
+      font-size: 11.5px;
+      color: var(--link);
+      border: 1px solid #c0d8f5;
+      border-radius: 3px;
+      padding: 1px 7px;
+      text-decoration: none;
+      transition: background 0.12s;
+    }
+    .pub-link-btn:hover { background: #dceeff; text-decoration: none; }
+
+    /* ── Experience rows with logos ── */
+    .exp-entry { display: flex; gap: 14px; align-items: flex-start; }
+    .exp-logo {
+      width: 54px; height: 54px; flex-shrink: 0;
+      border: 1px solid var(--border); border-radius: 6px;
+      background: #fafafa;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden; position: relative;
+      margin-top: 2px;
+    }
+    /* Initials show through when no logo file is present */
+    .exp-logo::before {
+      content: attr(data-initials);
+      font-size: 12px; font-weight: 700;
+      color: var(--text-light); letter-spacing: 0.02em;
+    }
+    .exp-logo img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: contain; padding: 5px;
+      background: var(--white);
+    }
+    .exp-text { flex: 1; min-width: 0; }
+
+    /* ── Research Interests ── */
+    .interests-list {
+      list-style: disc;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .interests-list li {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ── Footer ── */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--white);
+      padding: 16px 40px;
+      font-size: 12px;
+      color: var(--text-light);
+      max-width: 1100px;
+      margin-inline: auto;
+      grid-column: 1 / -1;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin-inline: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .masthead-inner { padding-right: 0; justify-content: space-between; padding-inline: 16px; }
+      .masthead-nav { display: none; flex-direction: column; position: absolute; top: var(--nav-height); left: 0; right: 0; background: var(--white); border-bottom: 1px solid var(--border); z-index: 99; padding: 8px 0; }
+      .masthead-nav.open { display: flex; }
+      .masthead-nav a { padding: 10px 20px; border-bottom: none; }
+      .nav-toggle { display: flex; }
+      .page-wrapper { grid-template-columns: 1fr; }
+      .sidebar { position: static; max-height: none; border-right: none; border-bottom: 1px solid var(--border); }
+      .author-avatar { width: 118px; height: 118px; font-size: 2.5rem; }
+      .main-content { padding: 24px 20px 40px; }
+      .news-item { grid-template-columns: 1fr; gap: 2px; }
+      .exp-logo { width: 44px; height: 44px; }
+      .exp-entry { gap: 11px; }
+      .news-date { font-size: 12px; }
+      .site-footer { padding: 16px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Masthead ── -->
+  <div class="masthead">
+    <div class="masthead-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="masthead-nav" id="mastheadNav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── Page ── -->
+  <div class="page-wrapper">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" aria-label="Author information">
+      <div class="author-avatar">
+        <!-- Replace the initials below with: <img src="images/your-photo.jpg" alt="Turja Kundu" width="150" height="150" loading="lazy" /> -->
+        <img src="images/turja.jpg" alt="Turja Kundu" width="170" height="170" loading="lazy" />
+ 
+      </div>
+      <div class="author-name">Turja Kundu</div>
+      <div class="author-bio-short">PhD Candidate</div>
+      <div class="author-affil">
+        Computer Science and Engineering<br>
+        University of North Texas<br>
+        Denton, TX, USA
+      </div>
+
+      <hr class="sidebar-divider" />
+
+      <ul class="sidebar-links">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span class="plain-text">Denton, TX, USA</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+          <a href="mailto:turjakundu@my.unt.edu">turjakundu@my.unt.edu</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span class="plain-text">+1 (618) 434 7192</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          <!-- TODO: paste your Google Scholar profile URL -->
+          <a href="https://scholar.google.com/citations?user=Pz8UEGgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <!-- TODO: paste your GitHub profile URL -->
+          <a href="https://github.com/turja16/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <!-- TODO: paste your LinkedIn profile URL -->
+          <a href="https://www.linkedin.com/in/turja-k-a19a7548/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
+        </li>
+      </ul>
+
+      <hr class="sidebar-divider" style="margin-top:20px;" />
+      <div class="sidebar-section-label">Advisor</div>
+      <ul class="sidebar-links">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <a href="https://computerscience.engineering.unt.edu/people/faculty/sanjukta-bhowmick" target="_blank" rel="noopener noreferrer">Dr. Sanjukta Bhowmick</a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- ── Main ── -->
+    <main class="main-content" id="main">
+
+      <!-- About -->
+      <section class="page-section" id="about">
+        <h1 class="section-title">Welcome to my homepage</h1>
+        <div class="section-body">
+          <p>
+            My name is Turja Kundu. I am a PhD candidate in the
+            <a href="https://computerscience.engineering.unt.edu/" target="_blank" rel="noopener noreferrer">Department of Computer Science and Engineering</a>
+            at the <strong>University of North Texas</strong>, advised by
+            <a href="https://computerscience.engineering.unt.edu/people/faculty/sanjukta-bhowmick" target="_blank" rel="noopener noreferrer">Dr. Sanjukta Bhowmick</a>.
+            I began my PhD at Southern Illinois University Carbondale and transferred to UNT.
+          </p>
+          <p>
+            My research sits at the intersection of <strong>high-performance computing</strong> and
+            <strong>scalable graph learning</strong>. Latency decides whether a prediction is usable, and
+            interpretability decides whether it is trusted, so I ask how graph structure can be turned into an
+            explicit, interpretable, and computationally efficient representation instead of being accessed through
+            repeated neighborhood propagation. In practice that means graph neural network designs that avoid
+            propagation entirely, parallel graph algorithms for GPUs, and keeping those representations valid as
+            graphs change.
+          </p>
+          <p>
+            In summer 2026 I was a <strong>Computational Science Intern at Fermi National Accelerator Laboratory</strong>,
+            where I built a scalable CVN neutrino-event inference pipeline by integrating LArSoft/larrecodnn with
+            NuSONIC and NVIDIA Triton, and benchmarked its latency and throughput.
+          </p>
+          <p>
+            Before starting my PhD I spent about seven years as a software engineer in Bangladesh, most recently
+            as <strong>Assistant Director (IT)</strong> at ASA International, where I built web-based microfinance
+            banking systems. I hold a B.Sc. in Computer Science and Engineering from <strong>BUET</strong>.
+          </p>
+          <p>
+            <strong>I am currently on the job market</strong>, looking for postdoctoral positions as well as teaching and research faculty positions.
+            You can download my full CV <a href="assets/cv.pdf">here</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- Research Interests -->
+      <section class="page-section" id="research">
+        <h2 class="section-title">Research Interests</h2>
+        <ul class="interests-list">
+          <li>Explicit, interpretable structural representations for graph learning</li>
+          <li>Parallel graph algorithms on GPUs and accelerators</li>
+          <li>Low-latency inference for scientific computing</li>
+          <li>Knowledge structure in large language models</li>
+        </ul>
+        <div class="section-body" style="margin-top:12px;">
+          <p>My <a href="research.html">research page</a> describes the vision, contributions, and agenda in full.</p>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="page-section" id="news">
+        <h2 class="section-title">News and Announcements</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">[Aug 2026]</span>
+            <span class="news-text">
+              <span class="news-badge badge-lab">Fermilab</span>
+              Completed my <strong>Computational Science Internship</strong> at Fermilab, building a CVN neutrino-event
+              inference pipeline on LArSoft, NuSONIC, and NVIDIA Triton.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[2026]</span>
+            <span class="news-text">
+              <span class="news-badge badge-review">Under Review</span>
+              Our paper <em><a href="https://arxiv.org/abs/2512.14908" target="_blank" rel="noopener noreferrer">ATLAS: Adaptive Topology-based Learning at Scale for Homophilic and Heterophilic Graphs</a></em>
+              is under review. The preprint is on arXiv.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[May 2026]</span>
+            <span class="news-text">
+              <span class="news-badge badge-lab">Fermilab</span>
+              Started as a <strong>Computational Science Intern (FCSI)</strong> at Fermi National Accelerator Laboratory, Batavia, IL.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[2025]</span>
+            <span class="news-text">
+              <span class="news-badge badge-iccs">ICCS 2025</span>
+              Our short paper <em>Centrality Resilience in Complex Networks</em> was accepted at <strong>ICCS 2025</strong>.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[2025]</span>
+            <span class="news-text">
+              Presented the poster <em>Effect of Graph Structure vs. Feature Quality for GCN</em> at <strong>SIAM 2025</strong>.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[2025]</span>
+            <span class="news-text">
+              Mentored two undergraduate researchers through the <strong>CRA UR2PHD</strong> program.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">[2023]</span>
+            <span class="news-text">
+              <span class="news-badge badge-cluster">IEEE Cluster</span>
+              <em>HIOS</em> was published at <strong>IEEE Cluster 2023</strong>, supported by an <strong>NSF Travel Grant</strong>.
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Publications -->
+      <section class="page-section" id="publications">
+        <h2 class="section-title">Publications</h2>
+        <ul class="pub-list">
+
+          <li class="pub-entry">
+            <div class="pub-venue-line">
+              <span class="venue-tag vtag-review">Under Review</span>
+              <span style="color:#aaa">·</span> 2026
+              <span style="color:#aaa">·</span> <strong style="color:#555;font-size:12px;">First Author</strong>
+            </div>
+            <div class="pub-title-line">
+              <a href="https://arxiv.org/abs/2512.14908" target="_blank" rel="noopener noreferrer">
+                ATLAS: Adaptive Topology-based Learning at Scale for Homophilic and Heterophilic Graphs
+              </a>
+            </div>
+            <div class="pub-authors-line">
+              <strong>Turja Kundu</strong>, Sanjukta Bhowmick
+            </div>
+            <div class="pub-links-line">
+              <a href="https://arxiv.org/abs/2512.14908" class="pub-link-btn" target="_blank" rel="noopener noreferrer">arXiv</a>
+             
+            </div>
+          </li>
+
+          <li class="pub-entry">
+            <div class="pub-venue-line">
+              <span class="venue-tag vtag-iccs">ICCS 2025</span>
+              <span style="color:#aaa">·</span> 2025
+              <span style="color:#aaa">·</span> <span style="font-size:12px;color:#555;">Short Paper</span>
+            </div>
+            <div class="pub-title-line">
+              Centrality Resilience in Complex Networks
+            </div>
+            <div class="pub-authors-line">
+              F. A. Irany, <strong>Turja Kundu</strong>, S. Sarakar, A. Mukherjee, Sanjukta Bhowmick
+            </div>
+          </li>
+
+          <li class="pub-entry">
+            <div class="pub-venue-line">
+              <span class="venue-tag vtag-poster">SIAM 2025</span>
+              <span style="color:#aaa">·</span> 2025
+              <span style="color:#aaa">·</span> <span style="font-size:12px;color:#555;">Poster</span>
+            </div>
+            <div class="pub-title-line">
+              Effect of Graph Structure vs. Feature Quality for GCN
+            </div>
+            <div class="pub-authors-line">
+              <strong>Turja Kundu</strong>, Sanjukta Bhowmick
+            </div>
+          </li>
+
+          <li class="pub-entry">
+            <div class="pub-venue-line">
+              <span class="venue-tag vtag-cluster">IEEE Cluster 2023</span>
+              <span style="color:#aaa">·</span> 2023
+              <span style="color:#aaa">·</span> <strong style="color:#555;font-size:12px;">First Author</strong>
+            </div>
+            <div class="pub-title-line">
+              HIOS: Hierarchical Inter-Operator Scheduler for Real-Time Inference of DAG-Structured Deep Learning Models on Multiple GPUs
+            </div>
+            <div class="pub-authors-line">
+              <strong>Turja Kundu</strong>, Tao Shu
+            </div>
+          </li>
+
+          <li class="pub-entry">
+            <div class="pub-venue-line">
+              <span class="venue-tag vtag-workshop">SC Workshops 2023</span>
+              <span style="color:#aaa">·</span> 2023
+            </div>
+            <div class="pub-title-line">
+              Accuracy-Constrained Efficiency Optimization and GPU Profiling of CNN Inference
+            </div>
+            <div class="pub-authors-line">
+              Y. Zhang, D. Pandey, D. Wu, <strong>Turja Kundu</strong>, R. Li, T. Shu
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- Experience -->
+      <section class="page-section" id="experience">
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <ul class="pub-list">
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="UNT">
+              <img src="images/logos/unt.png" alt="University of North Texas" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">2021 — Present</div>
+            <div class="pub-title-line" style="font-weight:600;">Ph.D. Candidate, Computer Science and Engineering</div>
+            <div class="pub-authors-line">University of North Texas, Denton TX &nbsp;·&nbsp; Advisor: Dr. Sanjukta Bhowmick &nbsp;·&nbsp; initiated at SIUC</div>
+            </div>
+          </li>
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="FNAL">
+              <img src="images/logos/fermilab.png" alt="Fermilab" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">May — Aug 2026</div>
+            <div class="pub-title-line" style="font-weight:600;">Computational Science Intern</div>
+            <div class="pub-authors-line">Fermi National Accelerator Laboratory, Batavia IL &nbsp;·&nbsp; CVN inference pipeline with LArSoft, NuSONIC, and NVIDIA Triton</div>
+            </div>
+          </li>
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="ASA">
+              <img src="images/logos/asa.png" alt="ASA International" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">2017 — 2021</div>
+            <div class="pub-title-line" style="font-weight:600;">Assistant Director (IT)</div>
+            <div class="pub-authors-line">ASA International Management Services Ltd, Dhaka, Bangladesh &nbsp;·&nbsp; web-based microfinance banking systems, large-scale data migration</div>
+            </div>
+          </li>
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="RS">
+              <img src="images/logos/relisource.png" alt="Relisource Technology" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">2015 — 2017</div>
+            <div class="pub-title-line" style="font-weight:600;">Software Engineer</div>
+            <div class="pub-authors-line">Relisource Technology Ltd, Dhaka, Bangladesh &nbsp;·&nbsp; distributed service-oriented systems</div>
+            </div>
+          </li>
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="MTL">
+              <img src="images/logos/mir.png" alt="Mir Technology" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">2012 — 2015</div>
+            <div class="pub-title-line" style="font-weight:600;">Software Engineer</div>
+            <div class="pub-authors-line">Mir Technology Ltd, Dhaka, Bangladesh &nbsp;·&nbsp; SIP relay/proxy servers (pthreads, BSD sockets), Android SIP clients</div>
+            </div>
+          </li>
+          <li class="pub-entry exp-entry">
+            <div class="exp-logo" data-initials="BUET">
+              <img src="images/logos/buet.png" alt="BUET" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="exp-text">
+            <div class="pub-venue-line">2007 — 2012</div>
+            <div class="pub-title-line" style="font-weight:600;">B.Sc. in Computer Science &amp; Engineering</div>
+            <div class="pub-authors-line">Bangladesh University of Engineering and Technology (BUET) &nbsp;·&nbsp; Dean's List Award, 2010</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Teaching and Mentoring -->
+      <section class="page-section" id="teaching">
+        <h2 class="section-title">Teaching &amp; Mentoring</h2>
+        <ul class="pub-list">
+          <li class="pub-entry">
+            <div class="pub-venue-line">2021 — 2024</div>
+            <div class="pub-title-line" style="font-weight:600;">Teaching Assistant</div>
+            <div class="pub-authors-line">
+              University of North Texas &nbsp;·&nbsp; Discovering Computer Science, Computer Science I,
+              Operating Systems, Computer Architecture, Algorithms, Graph Theory
+            </div>
+          </li>
+          <li class="pub-entry">
+            <div class="pub-venue-line">2021 — 2022</div>
+            <div class="pub-title-line" style="font-weight:600;">Teaching Assistant</div>
+            <div class="pub-authors-line">
+              Southern Illinois University Carbondale &nbsp;·&nbsp; Linux Programming, Advanced OOP,
+              Computer Organization and Architecture, Distributed Programming Applications
+            </div>
+          </li>
+          <li class="pub-entry">
+            <div class="pub-venue-line">Summer 2025</div>
+            <div class="pub-title-line" style="font-weight:600;">Undergraduate Research Mentor — CRA UR2PHD</div>
+            <div class="pub-authors-line">Mentored two undergraduate students on research projects; completed the program's mentor training.</div>
+          </li>
+        </ul>
+        <div class="section-body" style="margin-top:12px;">
+          <p>My <a href="teaching.html">teaching page</a> covers my philosophy, methods, and courses I can teach.</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="page-section" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="interests-list">
+          <li><strong>Languages:</strong> C, C++, CUDA, MPI, OpenMP, Python, Java, Fortran, R, Bash</li>
+          <li><strong>Libraries:</strong> PyTorch, cuDNN, NCCL, CUPTI, ROS, NetworkX, scikit-learn, NumPy, Pandas</li>
+          <li><strong>Profiling and tools:</strong> Nsight Systems/Compute, perf, Wireshark</li>
+          <li><strong>Graduate coursework:</strong> Deep Learning, Distributed Systems, Numerical Computation, Graph Theory, Software–Hardware Codesign for DNN, Computer Architecture, Real-Time Operating Systems, Computational Statistics</li>
+        </ul>
+      </section>
+
+      <!-- Awards -->
+      <section class="page-section" id="awards">
+        <h2 class="section-title">Awards</h2>
+        <ul class="pub-list">
+          <li class="pub-entry">
+            <div class="pub-venue-line">2023</div>
+            <div class="pub-title-line" style="font-weight:500;font-size:13.5px;">NSF Travel Grant — IEEE Cluster 2023</div>
+          </li>
+          <li class="pub-entry">
+            <div class="pub-venue-line">2010</div>
+            <div class="pub-title-line" style="font-weight:500;font-size:13.5px;">Dean's List Award — BUET</div>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer style="border-top:1px solid var(--border);background:var(--white);padding:14px 40px;font-size:12px;color:var(--text-light);">
+    <div class="footer-inner">
+      <span>© 2026 Turja Kundu &nbsp;·&nbsp; University of North Texas</span>
+      <span>Last updated: September 2026</span>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const nav = document.getElementById('mastheadNav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+
+    // Active nav highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.masthead-nav a');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.masthead-nav a[href="#${e.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.3 });
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
